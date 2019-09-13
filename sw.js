@@ -32,21 +32,21 @@ self.__precacheManifest = [
     "url": "commons.8948574677f25ecd250a.css"
   },
   {
-    "url": "commons-931325c46669c9e9505e.js"
+    "url": "commons-a2904349d56d87f74f69.js"
   },
   {
-    "url": "app-1845ba8bcd51b1a57c03.js"
+    "url": "app-6a7d3293ff37d7754fc0.js"
   },
   {
     "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-de4297582434805abada.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "fd28eb048e0202b3ef55b9434bc8f241"
+    "revision": "13828172ee9f47e8a75b7abe03bddfc7"
   },
   {
     "url": "page-data/offline-plugin-app-shell-fallback/page-data.json",
-    "revision": "96e3249afbc4e12ec99325f3b646d97a"
+    "revision": "ef53df6608ac92d6e7d581fad1085cc8"
   },
   {
     "url": "manifest.webmanifest",
@@ -74,7 +74,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/clipshare/app-1845ba8bcd51b1a57c03.js`))) {
+  if (!resources || !(await caches.match(`/clipshare/app-6a7d3293ff37d7754fc0.js`))) {
     return await fetch(event.request)
   }
 
