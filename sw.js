@@ -26,23 +26,27 @@ workbox.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-8fd73c4f5f4e8864554f.js"
+    "url": "webpack-runtime-e75fbace2cee74eb9035.js"
   },
   {
-    "url": "commons.a8245a60852abddaae14.css"
+    "url": "commons.e93ccecbdf8c12452181.css"
   },
   {
-    "url": "commons-e24e70690ab4fe2d98b5.js"
+    "url": "commons-2a73d9bd08299ec30295.js"
   },
   {
-    "url": "app-90cf83d255805f518760.js"
+    "url": "app-04be04f0cccea433709b.js"
   },
   {
     "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-462178f7219ad53119ac.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "0faf99ca4e4cc76ba3953102e11cf8e2"
+    "revision": "b0b4ba476dc5c6f0edd0ed09cff0ef86"
+  },
+  {
+    "url": "page-data/offline-plugin-app-shell-fallback/page-data.json",
+    "revision": "62f40c74315ec96cfbbb55f721289c92"
   },
   {
     "url": "manifest.webmanifest",
@@ -65,12 +69,12 @@ const { NavigationRoute } = workbox.routing
 
 const navigationRoute = new NavigationRoute(async ({ event }) => {
   let { pathname } = new URL(event.request.url)
-  pathname = pathname.replace(new RegExp(`^`), ``)
+  pathname = pathname.replace(new RegExp(`^/clipshare`), ``)
 
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/app-90cf83d255805f518760.js`))) {
+  if (!resources || !(await caches.match(`/clipshare/app-04be04f0cccea433709b.js`))) {
     return await fetch(event.request)
   }
 
@@ -83,7 +87,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
     }
   }
 
-  const offlineShell = `/offline-plugin-app-shell-fallback/index.html`
+  const offlineShell = `/clipshare/offline-plugin-app-shell-fallback/index.html`
   return await caches.match(offlineShell)
 })
 
