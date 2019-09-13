@@ -1,0 +1,10 @@
+.language-selector-banner {
+  border-bottom: 1px solid rgba($white, 0.1);
+}
+
+.alert-dismissible {
+  .close {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
