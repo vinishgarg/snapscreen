@@ -2,6 +2,7 @@ import React from 'react'
 import Img from 'gatsby-image'
 import { Container } from 'react-bootstrap'
 import VideoModal from '@components/element/successVideo'
+import MastheadFrontImg from '@assets/masthead-front.png'
 
 class Masthead extends React.Component {
   render() {
@@ -16,7 +17,7 @@ class Masthead extends React.Component {
             <VideoModal />
           </section>
           <div className={"overlay"}></div>
-          <img className={"parallax"} src="/masthead-front.png" alt="Snap, Clip, Share" />
+          <img className={"parallax"} src={MastheadFrontImg} alt="Snap, Clip, Share" />
         </Container>
       </div>
     )

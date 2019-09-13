@@ -1,9 +1,9 @@
 module.exports = {
   pathPrefix: `/clipshare`,
   siteMetadata: {
-    title: `Clipshare`,
-    description: `The content sharing revolution for TV/OTT.`,
-    author: `@zeitvertrieb`,
+    title: `Snapscreen`,
+    description: `Clipshare – The content sharing revolution for TV/OTT.`,
+    author: `@snapscreen`,
     twitter: `snapscreen`,
   },
   plugins: [
@@ -11,8 +11,8 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `images`,
-        path: `${__dirname}/static`,
+        name: `assets`,
+        path: `${__dirname}/src/assets`,
       },
     },
     `gatsby-transformer-sharp`,
@@ -22,11 +22,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Clipshare an Innovation by Snapscreen`,
+        short_name: `Clipshare`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#06243d`,
+        theme_color: `#06243d`,
         display: `minimal-ui`,
         icon: `${__dirname}/static/app-icon.png`, // This path is relative to the root of the site.
       },
@@ -37,6 +37,7 @@ module.exports = {
         root: './src',
         aliases: {
           '@components': './components', // <- will become ./src/components
+          '@assets': './assets', // <- will become ./src/assets
         }
       }
     },

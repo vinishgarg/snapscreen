@@ -1,12 +1,28 @@
 import React from 'react'
-import { graphql } from 'gatsby'
+import { useStaticQuery, graphql } from 'gatsby'
 import { injectIntl } from 'gatsby-plugin-intl'
 import Layout from '@components/layout'
 import SEO from '@components/helper/seo'
 import Header from '@components/block/header'
 import Masthead from '@components/block/masthead'
 
-const IndexPage = ({ intl, data }) => {
+const IndexPage = ({ intl }) => {
+  const data = useStaticQuery(graphql`
+    query {
+      file(relativePath: { eq: "masthead-bg.jpg" }) {
+        childImageSharp {
+          fluid(maxHeight: 800, quality: 100) {
+            base64
+            aspectRatio
+            src
+            srcSet
+            sizes
+          }
+        }
+      }
+    }
+  `)
+
   return (
     <Layout>
       <SEO
@@ -21,15 +37,3 @@ const IndexPage = ({ intl, data }) => {
 }
 
 export default injectIntl(IndexPage)
-
-export const data = graphql`
-  query IndexQuery {
-    file(relativePath: { eq: "masthead-bg.jpg" }) {
-      childImageSharp {
-        fluid {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
-  }
-`
