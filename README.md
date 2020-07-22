@@ -6,28 +6,27 @@ Here you find the deployed version: https://zeitvertrieb.github.io/clipshare/
 
 ## What's inside?
 
-A quick look at the top-level files and directories you'll see in this project.
+This project uses [react-bootstrap](https://react-bootstrap.github.io/) and is build with [Gatsby JS](https://www.gatsbyjs.org/).
 
+A quick look at the top-level files and directories you'll see in this project.
     .
-    ├── node_modules
     ├── src
     ├── static    
+    ├── .gitattributes
     ├── .gitignore
-    ├── .prettierrc
     ├── gatsby-browser.js
     ├── gatsby-config.js
     ├── gatsby-node.js
     ├── gatsby-ssr.js
-    ├── LICENSE
-    ├── package-lock.json
     ├── package.json
-    └── README.md
+    ├── README.md
+    └── yarn.lock
 
 1.  **`/node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.
 
 2.  **`/src`**: This directory will contain all of the code related to what you will see on the front-end of this site.
 
-3.  **`/static`**: This directory will contain all static assets (eg. logos, favicons etc.) that you will see on the front-end of this site.
+3.  **`/static`**: This directory will only contain static assets as favicon and app-icon. All other assets are loaded from the **`/src/assets`** directory to be used with gatsby-image or webpack-image.
 
 4.  **`gatsby-browser.js`**: This file is where Gatsby expects to find any usage of the [Gatsby browser APIs](https://www.gatsbyjs.org/docs/browser-apis/) (if any). These allow customization/extension of default Gatsby settings affecting the browser.
 

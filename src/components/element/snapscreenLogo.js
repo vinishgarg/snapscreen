@@ -6,7 +6,7 @@ const SnapscreenLogo = () => {
   return (
     <Link to="/" className="navbar-brand" title="Welcome to Snapscreen">
       <span className="sr-only"><FormattedMessage id="companyName" /></span>
-      <img className="brand-logo" src={LogoImg} alt="The Snapscreen Logo" />
+      <img className="brand-logo" src={LogoImg} alt="Snapscreen Logo" />
     </Link>
   )
 }

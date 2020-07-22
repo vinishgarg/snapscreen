@@ -1,22 +1,25 @@
 // Variables
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+$font-family-sans-serif: -apple-system, 'inter', sans-serif !default;
 
 // Restated Bootstrap Variables
 
 $white: #fff !default;
-$gray-100: #f4f5f7 !default;
+$gray-100: #EFEFEF !default;
 $gray-200: #e9ecef !default;
 $gray-300: #dee2e6 !default;
 $gray-400: #ced4da !default;
 $gray-500: #adb5bd !default;
 $gray-600: #868e96 !default;
-$gray-700: #495057 !default;
+$gray-700: #7A798D !default;
 $gray-800: #343a40 !default;
 $gray-900: #212529 !default;
 $black: #000 !default;
 
-$brand: #3897f0 !default;
-$brand-dark: #06243d !default;
-$blue: #007bff !default;
+$brand: #3897F0 !default;
+$brand-dark: #06233D !default;
+$blue: #0070c9 !default;
 $indigo: #6610f2 !default;
 $purple: #6f42c1 !default;
 $pink: #e83e8c !default;
@@ -37,11 +40,46 @@ $light: $gray-100 !default;
 $dark: $gray-800 !default;
 
 $link-color: $brand;
+$border-color: $light !default;
 
-$display1-size:               4em !default;
-$display2-size:               3.5em !default;
-$display3-size:               3em !default;
-$display4-size:               2.8em !default;
+$body-bg: $gray-100 !default;
+
+$display1-size: 4.5em !default;
+$display2-size: 3.5em !default;
+$display3-size: 3em !default;
+$display4-size: 2.8em !default;
+$display-line-height: 1.0625 !default;
+$display1-weight: 600;
+$display2-weight: 600;
+$display3-weight: 600;
+$display4-weight: 600;
+
+$headings-color: $gray-700 !default;
+$headings-font-weight: 600 !default;
+
+$box-shadow-lg: 0 1rem 3rem rgba($black, .175) !default;
+
+// Buttons
+
+$btn-font-weight:             600 !default;
+$input-btn-padding-x:         1rem !default;
+$input-btn-padding-x-sm:      .85rem !default;
+$input-btn-padding-x-lg:      1.5rem !default;
+
+// Cards
+$card-border-radius:                0.5rem !default;
+$card-border-color:                 transparent !default;
+$card-bg:                           transparent !default;
+
+// Popovers
+$popover-bg:                        $white !default;
+$popover-max-width:                 96% !default;
+$popover-border-width:              0 !default;
+$popover-border-radius:             0 !default;
+$popover-header-bg:                 $popover-bg !default;
+$popover-header-color:              $headings-color !default;
+$popover-header-padding-y:          1.5rem !default;
+$popover-header-padding-x:          1.5rem !default;
 
 // Bootstrap default variables
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';

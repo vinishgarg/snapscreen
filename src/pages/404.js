@@ -1,9 +1,10 @@
 import React from "react"
 import { Link } from "gatsby"
 import { FormattedMessage, injectIntl } from "gatsby-plugin-intl"
-import { Container, Jumbotron } from "react-bootstrap"
+import { Container, Row, Col, Jumbotron, Image } from "react-bootstrap"
 import Layout from "@components/layout"
 import SEO from "@components/helper/seo"
+import ErrorImg from '@assets/404.gif'
 
 const ErrorPage = ({ intl }) => {
     return (
@@ -12,14 +13,26 @@ const ErrorPage = ({ intl }) => {
           lang={intl.locale}
           title={`404: ${intl.formatMessage({ id: "title" })}`}
         />
-        <Container>
-          <Jumbotron className="text-center">
-            <img className="img-fluid mb-4" src="/404.gif" alt="Error 404" />
-            <h1><FormattedMessage id="notfound.title" /></h1>
-            <p className="lead"><FormattedMessage id="notfound.description" /></p>
-            <Link to="/"><FormattedMessage id="action.goBack" /></Link>
-          </Jumbotron>
-        </Container>
+        <Jumbotron>
+          <Container>
+            <Row>
+              <Col xs="12" lg={{ span: 6, order: 2 }} className="ml-auto">
+                <h1 className="display-2 mb-4 py-4">
+                  <strong><FormattedMessage id="page.notfound.title" /></strong>
+                </h1>
+                <p className="lead"><FormattedMessage id="page.notfound.description" /> <span role="img" aria-label="Winking Smiley">😞</span></p>
+                <div className="pt-4">
+                  <Link to="/" className="btn btn-primary btn-lg">
+                    <FormattedMessage id="action.goBack" />
+                  </Link>
+                </div>
+              </Col>
+              <Col xs="12" lg={{ span: 5, order: 1 }} className="mt-3">
+                <Image src={ErrorImg} width={600} fluid alt="Error 404" className="shadow-lg" />
+              </Col>
+            </Row>
+          </Container>
+        </Jumbotron>
       </Layout>
     )
   }

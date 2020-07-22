@@ -1,5 +1,14 @@
 body {
-  @include body-font;
+  font-family: $font-family-sans-serif;
+  min-height: 100vh;
+}
+
+::selection {
+  background: lighten($yellow, 40%); /* WebKit/Blink Browsers */
+  color: $black;
+}
+::-moz-selection {
+  background: lighten($yellow, 40%); /* Gecko Browsers */
 }
 
 h1,
@@ -8,17 +17,20 @@ h3,
 h4,
 h5,
 h6 {
-  @include body-font;
-  font-weight: 700;
+  font-family: $font-family-sans-serif;
+}
+
+hr {
+  border-color: $border-color;
 }
 
 
 .brand {
   &-logo {
-    height: 20px;
+    height: 24px;
   }
   &-icon {
-    height: 40px;
+    height: 24px;
   }
 }
 
@@ -32,4 +44,50 @@ h6 {
 
 .jumbotron {
   background: $white;
+}
+
+section {
+  padding: 4em 0;
+}
+
+.sticky {
+  @include media-breakpoint-up(md) {
+    position: sticky;
+    top: 100px;
+  }
+}
+
+.canvas-phone {
+  position: relative;
+  max-width: 200px;
+  &:after {
+    z-index: 0;
+    position: absolute;
+    left: 0;
+    border-radius: 3rem;
+    content: "";
+    width: 100%;
+    height: 100%;
+    @extend .shadow-lg;
+    // transition: background-color 0.5s cubic-bezier(0.28, 0.11, 0.32, 1);
+    // transition-property: background-color, backdrop-filter, -webkit-backdrop-filter;
+    // backdrop-filter: saturate(180%) blur(8px);
+  }
+  img {
+    position: relative;
+    z-index: 1
+  }
+  .frame {
+    border: 8px solid $primary;
+    height: 24%;
+    width: 80%;
+    position: absolute;
+    top: 24%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.blurred {
+  filter: blur(2px);
 }

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'gatsby-plugin-intl'
 import { Container, Row, Col, Card } from 'react-bootstrap'
 
 const GetStarted = () => {
@@ -7,9 +8,14 @@ const GetStarted = () => {
       <Container>
         <Row>
           <Col xs lg="9" xl="8" className="mx-auto">
-            <Card body className="shadow-lg">
-              <h2 className={"mb-2"}>Ready to get started?</h2>
-              <p className={"lead mb-4"}>Book a meeting with us and request a personal demo now!</p>
+            <Card body className="shadow-lg bg-white card">
+              <h2 className={"mb-2"}><strong>Become enthusiastic!</strong></h2>
+              <p className={"lead mb-4"}>
+                Try Snapscreen, share a demo clip with any of your friends. We are happy to get your feedack!
+              </p>
+              <Link to="/try/" className="btn btn-primary btn-lg">
+                Try it now
+              </Link>
             </Card>
           </Col>
         </Row>

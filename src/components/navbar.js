@@ -5,19 +5,32 @@ import SnapscreenLogo from '@components/element/snapscreenLogo'
 
 const CustomNavbar = () => {
   return (
-    <header>
-      <Navbar collapseOnSelect expand="sm" id="site-navbar" className="navbar navbar-dark bg-secondary">
+    <header className="navbar__wrapper">
+      <Navbar collapseOnSelect expand="sm" id="site-navbar" variant="dark">
         <Container>
           <SnapscreenLogo />
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav as="ul" className="ml-auto">
+          <a className="sr-only sr-only-focusable nav-link" href="#main">Skip to main content</a>
+          <Navbar.Toggle aria-controls="top-navbar-nav" />
+          <Navbar.Collapse id="top-navbar-nav">
+            <Nav as="ul" className="ml-md-auto">
               <li className="nav-item">
-                <Link to="/" className="nav-link">Home</Link>
+                <Link to="/vision/" className="nav-link">
+                  Vision
+                </Link>
               </li>
               <li className="nav-item">
-                <Link to="/about/" className="nav-link">
-                  <FormattedMessage id="navigation.about" />
+                <Link to="/solution/" className="nav-link">
+                  Solution
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link to="/benefits/" className="nav-link">
+                  Broadcaster
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link to="/contact/" className="nav-link">
+                  Get in touch
                 </Link>
               </li>
             </Nav>

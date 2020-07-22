@@ -19,7 +19,7 @@ const Layout = ({ children, intl }) => {
   return (
     <React.Fragment>
       <CustomNavbar siteTitle={intl.formatMessage({ id: "title" })} />
-      <main>{children}</main>
+      <main id="main">{children}</main>
       <Footer />
     </React.Fragment>
   )

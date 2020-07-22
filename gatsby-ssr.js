@@ -1,5 +1,7 @@
-/**
- * Implement Gatsby's SSR (Server Side Rendering) APIs in this file.
- *
- * See: https://www.gatsbyjs.org/docs/ssr-apis/
- */
+import React from 'react'
+
+export const onRenderBody = ({ setPostBodyComponents }) => {
+  setPostBodyComponents([
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>,
+  ])
+}

@@ -9,7 +9,7 @@ const LanguageSelector = () => {
   }
   return (
     <Dropdown className="d-inline-flex mx-auto">
-      <Dropdown.Toggle id="dropdown-langage" variant="link" size="sm" className="pl-0">
+      <Dropdown.Toggle id="dropdown-langage" variant="" size="sm" className="btn btn-light">
         <i className={"fa fa-language mt-2 mb-1 mr-2"}></i>
         <FormattedMessage id="selectLang" />
       </Dropdown.Toggle>

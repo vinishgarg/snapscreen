@@ -3,10 +3,15 @@
 @import "mixins.scss";
 // Global CSS
 @import "global.scss";
+@import "type.scss";
 // Components
+@import "buttons.scss";
 @import "navbar.scss";
+@import "popover.scss";
+@import "details.scss";
 @import "card.scss";
 @import "masthead.scss";
+@import "testimonial.scss";
 @import "showcase.scss";
 @import "swiper.scss";
 @import "team.scss";
