@@ -1,12 +1,12 @@
-# Clipshare
+# Snapscreen website
 
-This is a website for the product Clipshare by Snapscreen.
+This is a website for Snapscreen Inc.
 You are in the development branch. Master is used for GitHub Pages.
 Here you find the deployed version: https://zeitvertrieb.github.io/clipshare/
 
 ## What's inside?
 
-This project uses [react-bootstrap](https://react-bootstrap.github.io/) and is build with [Gatsby JS](https://www.gatsbyjs.org/).
+This project is build with [Gatsby JS](https://www.gatsbyjs.org/).
 
 A quick look at the top-level files and directories you'll see in this project.
     .
