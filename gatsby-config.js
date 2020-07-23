@@ -1,9 +1,9 @@
 module.exports = {
-  pathPrefix: `/clipshare`,
+  pathPrefix: `/snapscreen`,
   siteMetadata: {
     siteUrl: `https://www.snapscreen.com`,
     title: `Snapscreen`,
-    description: `We make TV discoverable and shareable.`,
+    description: `We make TV and streaming discoverable and shareable.`,
     author: `@snapscreen`,
     twitter: `snapscreen`,
   },
@@ -41,15 +41,25 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Snapscreen Inc`,
+        name: `Snapscreen`,
         short_name: `Snapscreen`,
-        start_url: `/?source=pwa`,
+        description: `We make TV and streaming discoverable and shareable.`,
+        start_url: `/en/`,
+        lang: `en`,
         background_color: `#EFEFEF`,
         theme_color: `#06233D`,
-        scope: `/`,
-        display: `minimal-ui`,
+        display: `standalone`,
         icon: `${__dirname}/static/app-icon.png`, // This path is relative to the root of the site.
         cache_busting_mode: `none`,
+        localize: [
+          {
+            start_url: `/de/`,
+            lang: `de`,
+            name: `Snapscreen`,
+            short_name: `Snapscreen`,
+            description: `Wir machen TV und streaming entdeckbar und teilbar.`,
+          },
+        ],
       },
     },
     {

@@ -35,6 +35,9 @@ function SEO({ description, lang, meta, keywords, title }) {
       title={title}
       titleTemplate={`%s | ${site.siteMetadata.title}`}
       meta={[
+        { name: `apple-mobile-web-app-capable`,
+          content: `yes`,
+        },
         {
           name: `description`,
           content: metaDescription,

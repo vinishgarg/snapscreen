@@ -1,7 +1,42 @@
 // Variables
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
 
-$font-family-sans-serif: 'inter', -apple-system, sans-serif !default;
+// Load local font
+
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../../static/fonts/Inter-Regular.woff2") format("woff2"),
+       url("../../static/fonts/Inter-Regular.woff") format("woff");
+}
+@font-face {
+  font-family: 'Inter';
+  font-style:  italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../../static/fonts/Inter-Italic.woff2") format("woff2"),
+       url("../../static/fonts/Inter-Italic.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../../static/fonts/Inter-SemiBold.woff2") format("woff2"),
+       url("../../static/fonts/Inter-SemiBold.woff") format("woff");
+}
+@font-face {
+  font-family: 'Inter';
+  font-style:  italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../../static/fonts/Inter-SemiBoldItalic.woff2") format("woff2"),
+       url("../../static/fonts/Inter-SemiBoldItalic.woff") format("woff");
+}
+
+$font-family-sans-serif: 'Inter', -apple-system, sans-serif !default;
 
 // Restated Bootstrap Variables
 
