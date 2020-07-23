@@ -44,7 +44,7 @@ module.exports = {
         name: `Snapscreen`,
         short_name: `Snapscreen`,
         description: `We make TV and streaming discoverable and shareable.`,
-        start_url: `/en/`,
+        start_url: `/`,
         lang: `en`,
         background_color: `#EFEFEF`,
         theme_color: `#06233D`,
