@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: `/snapscreen`,
+  pathPrefix: `/clipshare`,
   siteMetadata: {
     siteUrl: `https://www.snapscreen.com`,
     title: `Snapscreen`,
