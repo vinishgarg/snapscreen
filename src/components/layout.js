@@ -13,7 +13,7 @@ import Footer from '@components/block/footer'
 
 import 'modern-normalize/modern-normalize.css'
 import '../scss/styles.scss'
-import 'font-awesome/css/font-awesome.css'
+// import 'font-awesome/css/font-awesome.css'
 
 const Layout = ({ children, intl }) => {
   return (

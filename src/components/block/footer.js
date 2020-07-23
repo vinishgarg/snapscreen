@@ -4,14 +4,6 @@ import { Link, FormattedMessage, injectIntl } from 'gatsby-plugin-intl'
 import LanguageSelector from '@components/element/LanguageSelector'
 
 const Footer = () => {
-
-  useEffect(() => {
-    const head = document.querySelector('body')
-    const script = document.createElement('script')
-    script.setAttribute('src', 'https://unpkg.com/ionicons@5.1.2/dist/ionicons.js')
-    head.appendChild(script)
-  })
-
   return (
     <footer className="footer bg-light">
       <Container>

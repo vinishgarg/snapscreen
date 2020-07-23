@@ -3,7 +3,7 @@ module.exports = {
   siteMetadata: {
     siteUrl: `https://www.snapscreen.com`,
     title: `Snapscreen`,
-    description: `Clipshare – The content sharing revolution for TV/OTT.`,
+    description: `We make TV discoverable and shareable.`,
     author: `@snapscreen`,
     twitter: `snapscreen`,
   },
@@ -28,7 +28,7 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-sass`,
-    `gatsby-plugin-offline`, // this enables Progressive Web App + Offline functionality
+    `gatsby-plugin-offline`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

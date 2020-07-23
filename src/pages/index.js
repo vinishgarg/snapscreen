@@ -1,7 +1,9 @@
 import React from 'react'
 import { FormattedMessage, injectIntl, Link } from 'gatsby-plugin-intl'
-import { Container, Row, Col, Jumbotron, Image, Media, Card, ResponsiveEmbed } from "react-bootstrap"
-import ReactTypingEffect from 'react-typing-effect'
+import { Container, Row, Col, Jumbotron, Image, Media, Card, ResponsiveEmbed } from 'react-bootstrap'
+
+import ReactTypingEffect from '@components/vendor/react-typing-effect/src/lib/'
+// import ReactTypingEffect from 'react-typing-effect'
 
 import Layout from '@components/layout'
 import SEO from '@components/helper/seo'
@@ -48,9 +50,9 @@ const IndexPage = ({ intl }) => {
                 <strong>on TV?</strong>
               </h1>
               <p className="lead">
-                <strong>You have 2 options to share what’s on TV:</strong> Either know a good fortune teller
-                who knows when you need to record the TV screen with your phone. – OR –
-                You use Snapscreen and never miss any favorite moment on TV ever again. Let us know which solution you prefer.
+                <strong>You have 2 options to share what’s on TV:</strong> Either have a good fortune teller
+                who knows when you need to record the TV screen – OR –
+                have Snapscreen ready on your mobile phone and never miss any favorite moment on TV ever again. Let us know which solution you prefer.
               </p>
               <div className="pt-4">
                 <Link to="/try/" className="btn btn-primary btn-lg">
