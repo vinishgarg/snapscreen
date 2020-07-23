@@ -31,7 +31,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-module-resolver',
       options: {
-        root: './src',
+        root: 'src',
         aliases: {
           '@components': './components', // <- will become ./src/components
           '@assets': './assets', // <- will become ./src/assets
@@ -44,12 +44,12 @@ module.exports = {
         name: `Snapscreen`,
         short_name: `Snapscreen`,
         description: `We make TV and streaming discoverable and shareable.`,
-        start_url: `/`,
+        start_url: `/?utm_source=web_app_manifest`,
         lang: `en`,
         background_color: `#EFEFEF`,
         theme_color: `#06233D`,
-        display: `standalone`,
-        icon: `${__dirname}/static/app-icon.png`, // This path is relative to the root of the site.
+        display: `minimal-ui`,
+        icon: `static/app-icon.png`, // This path is relative to the root of the site.
         cache_busting_mode: `none`,
         localize: [
           {

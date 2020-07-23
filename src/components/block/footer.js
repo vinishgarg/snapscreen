@@ -62,14 +62,9 @@ const Footer = () => {
         <Row>
           <Col xs="12" className="text-center text-md-left my-auto small">
             <LanguageSelector />
-            <Nav as="ul" className="list-inline d-inline-flex justify-content-center justify-content-lg-start ml-2">
+            <Nav as="ul" className="list-inline d-inline-flex justify-content-center justify-content-lg-start mx-2">
               <li>
                 <Link to="/" className="nav-link">Home</Link>
-              </li>
-              <li>
-                <Link to="/sitemap/" className="nav-link">
-                  Sitemap
-                </Link>
               </li>
               <li>
                 <Link to="/privacy/" className="nav-link">
@@ -84,8 +79,7 @@ const Footer = () => {
             </Nav>
             <span className="d-inline-flex mb-4 mb-lg-0">
               &copy;&nbsp;<FormattedMessage id="companyName" />
-              &nbsp;{new Date().getFullYear()}.
-              &nbsp; <FormattedMessage id="footer.copyright" />
+              &nbsp;{new Date().getFullYear()}. <FormattedMessage id="footer.copyright" />
             </span>
           </Col>
         </Row>
