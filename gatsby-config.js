@@ -9,6 +9,11 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sass`,
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
+    `gatsby-transformer-remark`,
+    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -23,24 +28,6 @@ module.exports = {
         path: `${__dirname}/src/blog`,
       },
     },
-    `gatsby-transformer-remark`,
-    `gatsby-plugin-sitemap`,
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
-    `gatsby-plugin-sass`,
-    `gatsby-plugin-offline`,
-    {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-        name: `Snapscreen Inc`,
-        short_name: `Snapscreen`,
-        start_url: `/`,
-        background_color: `#EFEFEF`,
-        theme_color: `#06233D`,
-        display: `minimal-ui`,
-        icon: `${__dirname}/static/app-icon.png`, // This path is relative to the root of the site.
-      },
-    },
     {
       resolve: 'gatsby-plugin-module-resolver',
       options: {
@@ -50,6 +37,29 @@ module.exports = {
           '@assets': './assets', // <- will become ./src/assets
         }
       }
+    },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Snapscreen Inc`,
+        short_name: `Snapscreen`,
+        start_url: `/?source=pwa`,
+        background_color: `#EFEFEF`,
+        theme_color: `#06233D`,
+        scope: `/`,
+        display: `minimal-ui`,
+        icon: `${__dirname}/static/app-icon.png`, // This path is relative to the root of the site.
+        cache_busting_mode: `none`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-offline`, // needs to be after manifest!
+      options: {
+        precachePages: [`/vision/`, `/solution/`, `/business/`, `/contact/`],
+        workboxConfig: {
+           globPatterns: [`**/icon-path*`]
+        }
+      },
     },
     {
       resolve: `gatsby-plugin-intl`,

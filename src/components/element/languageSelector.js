@@ -10,7 +10,8 @@ const LanguageSelector = () => {
   return (
     <Dropdown className="d-inline-flex mx-auto">
       <Dropdown.Toggle id="dropdown-langage" variant="" size="sm" className="btn btn-light">
-        <i className={"fa fa-language mt-2 mb-1 mr-2"}></i>
+        <i className={"fa fa-language "}></i>
+        <ion-icon name="language" style={{marginRight: "0.5rem", height: 20, width: 20, float: "left"}}/>
         <FormattedMessage id="selectLang" />
       </Dropdown.Toggle>
       <Dropdown.Menu>

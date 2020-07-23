@@ -26,7 +26,7 @@ const IndexPage = ({ intl }) => {
       <Jumbotron>
         <Container>
           <Row>
-            <Col xs="12" lg={{span: '8', order: '2'}} className="ml-auto mr-auto">
+            <Col xs="12" md="10" lg="9" className="ml-auto mr-auto">
               <div className="lead-title">Share and discover what’s on TV.</div>
               <h1 className="display-2 mb-4 py-4">
                 <strong>Did You see this</strong>
@@ -41,8 +41,8 @@ const IndexPage = ({ intl }) => {
                         "incredible news",
                         "amazing Slam-Dunk",
                         "hilarious laugh",
-                        "awesome Touchdown",
-                        "magic action"
+                        "magic Touch-down",
+                        "awesome action"
                       ]
                     }
                   />
