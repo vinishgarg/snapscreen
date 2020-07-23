@@ -24,7 +24,7 @@ const CustomNavbar = () => {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="/benefits/" className="nav-link">
+                <Link to="/business/" className="nav-link">
                   Broadcaster
                 </Link>
               </li>

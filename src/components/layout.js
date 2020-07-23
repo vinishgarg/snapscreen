@@ -10,6 +10,7 @@ import PropTypes from 'prop-types'
 import { injectIntl } from 'gatsby-plugin-intl'
 import CustomNavbar from '@components/navbar'
 import Footer from '@components/block/footer'
+import SnapButton from '@components/element/snapButton'
 
 import 'modern-normalize/modern-normalize.css'
 import '../scss/styles.scss'
@@ -20,6 +21,7 @@ const Layout = ({ children, intl }) => {
     <React.Fragment>
       <CustomNavbar siteTitle={intl.formatMessage({ id: "title" })} />
       <main id="main">{children}</main>
+      <SnapButton />
       <Footer />
     </React.Fragment>
   )
