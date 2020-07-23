@@ -111,12 +111,12 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   lastNavigationRequest = event.request.url
 
   let { pathname } = new URL(event.request.url)
-  pathname = pathname.replace(new RegExp(`^/clipshare`), ``)
+  pathname = pathname.replace(new RegExp(`^/snapscreen`), ``)
 
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/clipshare/app-72c03d244e587a9bf853.js`))) {
+  if (!resources || !(await caches.match(`/snapscreen/app-f0f6aa3fda21390c1856.js`))) {
     return await fetch(event.request)
   }
 
@@ -129,7 +129,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
     }
   }
 
-  const offlineShell = `/clipshare/offline-plugin-app-shell-fallback/index.html`
+  const offlineShell = `/snapscreen/offline-plugin-app-shell-fallback/index.html`
   const offlineShellWithKey = workbox.precaching.getCacheKeyForURL(offlineShell)
   return await caches.match(offlineShellWithKey)
 })
