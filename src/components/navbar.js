@@ -26,6 +26,9 @@ const CustomNavbar = () => {
 
   return (
     <header className="navbar__wrapper">
+      <noscript>
+        <p>Please enable javascript to see this page. Thanks</p>
+      </noscript>
       <Navbar collapseOnSelect expand="sm" id="site-navbar" variant="dark">
         <Container>
           <SnapscreenLogo />
