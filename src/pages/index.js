@@ -55,7 +55,7 @@ const IndexPage = ({ intl }) => {
                 who knows when you need to record the TV screen – OR –
                 have Snapscreen ready on your mobile phone and never miss any favorite moment on TV ever again. Let us know which solution you prefer.
               </p>
-              <div className="pt-4">
+              <div className="pt-4 text-center text-sm-left">
                 <Link to="/try/" className="btn btn-primary btn-lg">
                   Try it now
                 </Link>
