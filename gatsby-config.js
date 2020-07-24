@@ -66,9 +66,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-offline`, // needs to be after manifest!
       options: {
-        precachePages: [`/vision/`, `/solution/`, `/business/`, `/contact/`],
+        precachePages: [`/`, `/vision/`, `/solution/`, `/business/`, `/contact/`],
         workboxConfig: {
-           globPatterns: [`**/icon-path*`]
+           globPatterns: ['**/*.{js,jpg,gif,html,css}']
         }
       },
     },
