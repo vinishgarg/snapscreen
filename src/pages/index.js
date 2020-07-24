@@ -86,12 +86,12 @@ const IndexPage = ({ intl }) => {
             </Col>
           </Row>
           <div className="card-grid">
-              <Testimonial role="Journalist" medium="FOX news" name="Joe Concha" img="https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2020/02/696/392/JOE-CONCHA.jpg?ve=1&tl=1">
-                <p>Snapscreen breaks a barrier in sharing media files in journalism. By snapping a TV getting a high quality clip feels like magic! Free speech at a new level.</p>
-              </Testimonial>
-              <Testimonial role="Journalist" medium="Techchrunch" name="Zack Whittaker" img="https://crunchbase-production-res.cloudinary.com/image/upload/w_400,h_400,c_thumb,g_faces/arqrabrudwyofg3sb2pl">
-                <p>Snapscreen breaks a barrier in sharing media files in journalism. By snapping a TV getting a high quality clip feels like magic! Free speech at a new level.</p>
-              </Testimonial>
+            <Testimonial role="Journalist" medium="FOX news" name="Joe Concha" img="https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2020/02/696/392/JOE-CONCHA.jpg?ve=1&tl=1">
+              <p>Snapscreen breaks a barrier in sharing media files in journalism. By snapping a TV getting a high quality clip feels like magic! Free speech at a new level.</p>
+            </Testimonial>
+            <Testimonial role="Journalist" medium="Techchrunch" name="Zack Whittaker" img="https://crunchbase-production-res.cloudinary.com/image/upload/w_400,h_400,c_thumb,g_faces/arqrabrudwyofg3sb2pl">
+              <p>Snapscreen breaks a barrier in sharing media files in journalism. By snapping a TV getting a high quality clip feels like magic! Free speech at a new level.</p>
+            </Testimonial>
           </div>
         </Container>
       </section>
