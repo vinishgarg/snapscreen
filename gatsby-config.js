@@ -51,6 +51,7 @@ module.exports = {
         display: `minimal-ui`,
         icon: `static/app-icon.png`, // This path is relative to the root of the site.
         cache_busting_mode: `none`,
+        precachePages: [`/contact/`, `/vision/`, `/blog/*`],
         localize: [
           {
             start_url: `/de/`,
