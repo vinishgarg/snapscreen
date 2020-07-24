@@ -51,7 +51,6 @@ module.exports = {
         display: `minimal-ui`,
         icon: `static/app-icon.png`, // This path is relative to the root of the site.
         cache_busting_mode: `none`,
-        precachePages: [`/contact/`, `/vision/`, `/blog/*`],
         localize: [
           {
             start_url: `/de/`,
@@ -66,7 +65,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-offline`, // needs to be after manifest!
       options: {
-        precachePages: [`/`, `/vision/`, `/solution/`, `/business/`, `/contact/`],
+        precachePages: [`/`, `/vision`, `/solution`, `/business`, `/contact`],
         workboxConfig: {
            globPatterns: [`**/icon-path*`, `**/*.{js,jpg,gif,html,css}`]
         }
