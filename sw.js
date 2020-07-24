@@ -25,7 +25,88 @@ workbox.core.clientsClaim();
  * requests for URLs in the manifest.
  * See https://goo.gl/S9QRab
  */
-self.__precacheManifest = [].concat(self.__precacheManifest || []);
+self.__precacheManifest = [
+  {
+    "url": "webpack-runtime-dca4c6018ba008ef66a0.js"
+  },
+  {
+    "url": "framework-fca5a6c89ebf46562859.js"
+  },
+  {
+    "url": "app-448185137e24efbc654e.js"
+  },
+  {
+    "url": "offline-plugin-app-shell-fallback/index.html",
+    "revision": "091f4720ef06b4e7d673d9ec251eeb48"
+  },
+  {
+    "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-c9875e2473a7c518755f.js"
+  },
+  {
+    "url": "page-data/offline-plugin-app-shell-fallback/page-data.json",
+    "revision": "243534c4146999de94375adbd80795e3"
+  },
+  {
+    "url": "static/d/63159454.json"
+  },
+  {
+    "url": "page-data/app-data.json",
+    "revision": "206bfa0e1c00f8c2f34816300b71c280"
+  },
+  {
+    "url": "polyfill-bb4983c58ef0ea99ce79.js"
+  },
+  {
+    "url": "styles.db59073e3d5c4671d330.css"
+  },
+  {
+    "url": "styles-c2fe8482057191dca484.js"
+  },
+  {
+    "url": "01f6d17db53167da3c8e76ece80f2168fb039962-15b9a2948783775cbe96.js"
+  },
+  {
+    "url": "dc389e94862d1bc536d0ebc364f0a7490ba7b454-7fc57738536a3a7123e0.js"
+  },
+  {
+    "url": "component---src-pages-vision-js-dc0599f5981cd45edd29.js"
+  },
+  {
+    "url": "page-data/vision/page-data.json",
+    "revision": "a666d7dca68482aeba9f64c61a8579bc"
+  },
+  {
+    "url": "ee7e2504872fb7e9ccb2dd02a943b90c6b0e35c1-0674552d8fbfba1624e3.js"
+  },
+  {
+    "url": "ee93aa93245769fb6e2fb00175f1a427a218dbdb-e7ece2e30f4c487c8108.js"
+  },
+  {
+    "url": "component---src-pages-solution-js-dda89d54ec0c6319ce69.js"
+  },
+  {
+    "url": "page-data/solution/page-data.json",
+    "revision": "04c9d906036425a39417f601fb6ff562"
+  },
+  {
+    "url": "component---src-pages-business-js-890de9ed0b3e56194f40.js"
+  },
+  {
+    "url": "page-data/business/page-data.json",
+    "revision": "76a65cfb0d1fee359a0edb53bcc5eec1"
+  },
+  {
+    "url": "component---src-pages-contact-js-e98b2f075cfe78147eca.js"
+  },
+  {
+    "url": "page-data/contact/page-data.json",
+    "revision": "6a763fb8d83da277ac5f6c8b7d4aab3a"
+  },
+  {
+    "url": "manifest.webmanifest",
+    "revision": "d1752e2bbbb54d565f8ba2b84873cf82"
+  }
+].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
 workbox.routing.registerRoute(/(\.js$|\.css$|static\/)/, new workbox.strategies.CacheFirst(), 'GET');
@@ -116,7 +197,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/clipshare/app-701a3348a6dd729dca5c.js`))) {
+  if (!resources || !(await caches.match(`/clipshare/app-448185137e24efbc654e.js`))) {
     return await fetch(event.request)
   }
 
