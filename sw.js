@@ -116,7 +116,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/clipshare/app-9a5f883a619e5728e08f.js`))) {
+  if (!resources || !(await caches.match(`/clipshare/app-dd6feebbb0fb1bed4aed.js`))) {
     return await fetch(event.request)
   }
 
