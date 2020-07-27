@@ -44,13 +44,12 @@ module.exports = {
         name: `Snapscreen`,
         short_name: `Snapscreen`,
         description: `We make TV and streaming discoverable and shareable.`,
-        start_url: `/?utm_source=web_app_manifest`,
+        start_url: `/`,
         lang: `en`,
         background_color: `#EFEFEF`,
         theme_color: `#06233D`,
         display: `minimal-ui`,
-        icon: `static/app-icon.png`, // This path is relative to the root of the site.
-        cache_busting_mode: `none`,
+        icon: `${__dirname}/static/app-icon.png`, // This path is relative to the root of the site.
         localize: [
           {
             start_url: `/de/`,
@@ -65,10 +64,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-offline`, // needs to be after manifest!
       options: {
-        precachePages: [`/`, `/vision`, `/solution`, `/business`, `/contact`],
-        workboxConfig: {
-           globPatterns: [`**/icon-path*`, `**/*.{js,jpg,gif,html,css}`]
-        }
+        precachePages: [`/vision`, `/solution`, `/business`, `/contact`, `/try`],
       },
     },
     {
@@ -77,7 +73,7 @@ module.exports = {
         path: `${__dirname}/src/intl`,
         languages: [`en`, `de`],
         defaultLanguage: `en`,
-        redirect: true,
+        redirect: false,
         redirectComponent: require.resolve(`./src/components/helper/redirect.js`),
       },
     },

@@ -29,7 +29,7 @@ const IndexPage = ({ intl }) => {
             <Col xs="12" md="10" lg="9" className="ml-auto mr-auto">
               <div className="lead-title">Share and discover what’s on TV.</div>
               <h1 className="display-2 mb-4 py-4">
-                <strong>Did You see this</strong>
+                <strong>Did You snap this</strong>
                 {' '}
                 <span className="text-primary">
                   <ReactTypingEffect

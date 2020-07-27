@@ -47,7 +47,7 @@ $gray-300: #dee2e6 !default;
 $gray-400: #ced4da !default;
 $gray-500: #adb5bd !default;
 $gray-600: #868e96 !default;
-$gray-700: #7A798D !default;
+$gray-700: #707070 !default;
 $gray-800: #343a40 !default;
 $gray-900: #212529 !default;
 $black: #000 !default;
@@ -94,12 +94,15 @@ $headings-font-weight: 600 !default;
 
 $box-shadow-lg: 0 1rem 3rem rgba($black, .175) !default;
 
-// Buttons
+// Navbar
+$navbar-dark-color:                 rgba($white, .75) !default;
+$navbar-dark-hover-color:           rgba($white, .85) !default;
 
-$btn-font-weight:             600 !default;
-$input-btn-padding-x:         1rem !default;
-$input-btn-padding-x-sm:      .85rem !default;
-$input-btn-padding-x-lg:      1.5rem !default;
+// Buttons
+$btn-font-weight:                   600 !default;
+$input-btn-padding-x:               1rem !default;
+$input-btn-padding-x-sm:            .85rem !default;
+$input-btn-padding-x-lg:            1.5rem !default;
 
 // Cards
 $card-border-radius:                0.5rem !default;
