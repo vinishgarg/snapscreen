@@ -33,11 +33,11 @@ self.__precacheManifest = [
     "url": "framework-fca5a6c89ebf46562859.js"
   },
   {
-    "url": "app-448185137e24efbc654e.js"
+    "url": "app-98267bcbfd80a445ccd7.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "dbaac61d2eab671940343d1d6aa6cd36"
+    "revision": "8e24691cd997746f11e782bf20a4b2eb"
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-c9875e2473a7c518755f.js"
@@ -51,7 +51,7 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "c76d298955986af55a0e11aaf327ff70"
+    "revision": "04173af3da6130454d0a0a3235414929"
   },
   {
     "url": "polyfill-bb4983c58ef0ea99ce79.js"
@@ -101,6 +101,13 @@ self.__precacheManifest = [
   {
     "url": "page-data/contact/page-data.json",
     "revision": "6a763fb8d83da277ac5f6c8b7d4aab3a"
+  },
+  {
+    "url": "component---src-pages-try-js-f853ed3ab80cd49ebf98.js"
+  },
+  {
+    "url": "page-data/try/page-data.json",
+    "revision": "de65d30b1344454a14d1d06959852086"
   },
   {
     "url": "manifest.webmanifest",
@@ -197,7 +204,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/clipshare/app-448185137e24efbc654e.js`))) {
+  if (!resources || !(await caches.match(`/clipshare/app-98267bcbfd80a445ccd7.js`))) {
     return await fetch(event.request)
   }
 
