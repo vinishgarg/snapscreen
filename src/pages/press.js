@@ -17,6 +17,7 @@ const Press = ({
   const linkedInURL = 'https://www.linkedin.com/company/snapscreen/'
   // GET posts from .md files in src/press
   const Posts = edges
+    .filter(edge => !!edge.node.frontmatter.date) // Filter posts based on some criteria
     .map(edge => <li className="mb-2" key={edge.node.id}><PostLink post={edge.node} /></li>)
   return (
     <Layout>
