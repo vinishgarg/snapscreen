@@ -1,0 +1,26 @@
+.dialog {
+  @extend .shadow;
+  width: 33.33333%;
+  z-index: 9;
+  background-color: $white;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 0.5rem;
+
+  p:last-of-type {
+    margin-bottom: 0;
+  }
+
+  @include media-breakpoint-down(xs) {
+    max-height: 75vh;
+    width: 100%;
+    margin: 0;
+    position: fixed;
+    z-index: 1000;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-top: 1px solid $border-color;
+    border-radius: 0;
+  }
+}
