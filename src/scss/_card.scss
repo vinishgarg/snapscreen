@@ -5,13 +5,20 @@
   &--transparent {
     border: 0;
     background: transparent;
+    &:hover {
+      box-shadow: none;
+    }
   }
 
   &:hover {
-    background-color: $white;
-    @extend .shadow-lg;
+    // background-color: $white;
+    @extend .shadow;
   }
 
+}
+
+.card-header {
+  background-color: $white;
 }
 
 
@@ -22,6 +29,9 @@
   grid-auto-rows: minmax(4rem, auto);
   grid-auto-flow: dense;
   @include media-breakpoint-up(md) {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    &.two-cards {
+      grid-template-columns: repeat(2, 1fr);
+    }
   }
 }

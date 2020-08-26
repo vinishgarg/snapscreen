@@ -9,13 +9,14 @@ const LanguageSelector = () => {
   }
   return (
     <Dropdown className="d-inline-flex mx-auto">
-      <Dropdown.Toggle id="dropdown-langage" variant="" size="sm" className="btn btn-light">
-        <i className={"fa fa-language "}></i>
+      <Dropdown.Toggle size="sm" className="btn btn-light mr-3 mb-3 mb-md-0">
         <ion-icon name="language" style={{marginRight: "0.5rem", height: 20, width: 20, float: "left"}}/>
-        <FormattedMessage id="selectLang" />
+        <FormattedMessage id="footer.selectLang" />
       </Dropdown.Toggle>
       <Dropdown.Menu>
-        <Dropdown.Header><FormattedMessage id="selectLang" /></Dropdown.Header>
+        <Dropdown.Header>
+          <FormattedMessage id="footer.selectLang" />
+        </Dropdown.Header>
         <IntlContextConsumer>
           { ({ languages, language: currentLocale }) =>
             languages.map(language => (

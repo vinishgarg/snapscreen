@@ -3,23 +3,23 @@ import { Link, FormattedMessage, injectIntl } from 'gatsby-plugin-intl'
 import { Container, Navbar, Nav } from 'react-bootstrap'
 import SnapscreenLogo from '@components/element/snapscreenLogo'
 
-const CustomNavbar = () => {
+const CustomNavbar = ({ intl }) => {
 
   const menu = [
     {
-      label: 'Vision',
+      label: intl.formatMessage({ id: "main.navigation.vision" }),
       link: 'vision',
     },
     {
-      label: 'Solution',
+      label: intl.formatMessage({ id: "main.navigation.solution" }),
       link: 'solution',
     },
     {
-      label: 'Broadcaster',
+      label: intl.formatMessage({ id: "main.navigation.business" }),
       link: 'business',
     },
     {
-      label: 'Get in touch',
+      label: intl.formatMessage({ id: "main.navigation.contact" }),
       link: 'contact',
     }
   ]
@@ -29,14 +29,16 @@ const CustomNavbar = () => {
       <Navbar collapseOnSelect expand="sm" id="site-navbar" variant="dark">
         <Container>
           <SnapscreenLogo />
-          <a className="sr-only sr-only-focusable nav-link" href="#main">Skip to main content</a>
+          <a className="sr-only sr-only-focusable nav-link" href="#main">
+            <FormattedMessage id="action.skipNavigation" />
+          </a>
           <Navbar.Toggle aria-controls="top-navbar-nav" />
           <Navbar.Collapse id="top-navbar-nav">
             <Nav as="ul" className="ml-md-auto">
               {menu.map(function(item, i) {
                 return (
                   <li key={i} className="nav-item">
-                    <Link to={"/" + item.link + "/"} className="nav-link">
+                    <Link to={"/" + item.link} className="nav-link">
                       {item.label}
                     </Link>
                   </li>

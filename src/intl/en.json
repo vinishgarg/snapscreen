@@ -1,14 +1,201 @@
 {
-  "title": "Clipshare",
   "companyName": "Snapscreen",
-  "navigation": {
-    "about": "About us",
-    "contact": "Contact",
-    "request": "Request a demo",
-    "solution": "Solution for Broadcasters",
-    "benefit": "Benefits for Viewers",
-    "devs": "For Developers",
-    "faq": "FAQs"
+  "title": "We make TV and streaming discoverable and shareable.",
+  "main.navigation": {
+    "vision": "About us",
+    "solution": "Solution",
+    "business": "For Broadcaster",
+    "contact": "Get in touch"
+  },
+  "footer.navigation": {
+    "press": "Press",
+    "faq": "FAQs",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "home": "Home"
+  },
+  "footer.copyright": "All rights reserved.",
+  "footer.selectLang": "All languages",
+  "page.home": {
+    "title": "Share and discover what’s on TV.",
+    "description": "",
+    "headlinePre": "Did You snap that",
+    "headlinePost": "on TV?",
+    "type1": "epic moment",
+    "type2": "incredible news",
+    "type3": "amazing Slam-Dunk",
+    "type4": "hilarious laugh",
+    "type5": "magic Touch-down",
+    "type6": "awesome action",
+    "emphasize": "Live TV is full of countless shareable moments that happen in the blink of an eye.",
+    "text": "To capture and share these moments, you have two options; (1) a fortune teller knows exactly when to hit record; or (2) You have Snapscreen ready on your mobile phone so you never miss a moment. As soon as you witness a shareable moment, take a photo of the screen with Snapscreen and within seconds you'll have a high quality clip of that moment for you to share with your network."
+  },
+  "page.vision": {
+    "title": "Our Vision",
+    "description": "",
+    "headline": "Making TV and streaming discoverable and shareable.",
+    "emphasize": "Sharing and discovering of TV or streaming moments should be easy, fun and free!",
+    "text": "We realized this to be a real need of people who share photos of TV screens and clunky recordings in social media. We give people a better experience and provide broadcasters new opportunities to interact with them."
+  },
+  "page.solution": {
+    "title": "Our Solution",
+    "description": "",
+    "headline": "As a viewer I can share and discover moments of TV.",
+    "emphasize": "Have you ever tried sharing what's on TV?",
+    "text": "With Snapscreen you simply take a photo (Snapshot) of a TV or streaming with your mobile. Snapscreen detects instantly the specific moment of the programm. You can rewind in time, create a clip and share this in broadcast quality."
+  },
+  "page.business": {
+    "title": "For Broadcasters of linear TV and streaming",
+    "description": "",
+    "headline": "A new way to reach audience and create engagement.",
+    "emphasize": "With Snapscreen broadcasters can embrace customer behavior and get a non-intrusive connection to their audience.",
+    "text": "Savvy marketers can take advantage by engaging their audience in new and compelling ways. Analytics of usage and interests can be linked back to brand values and win over viewers loyality."
+  },
+  "page.faq": {
+    "title": "Frequently asked questions.",
+    "description": "",
+    "headline": "There’s no such thing as a stupid question.",
+    "emphasize": "Snapscreen is a new and innovative.",
+    "text": "It is in our interest to help you understand our idea and what we provide. We also would like to get your feedback and hear your thoughts. Feel free to ask us anything you like to know."
+  },
+  "page.contact": {
+    "title": "Get in touch",
+    "description": "",
+    "headline": "Your bright future starts with a simple conversation.",
+    "emphasize": "Whether you are curious how Snapscreen works with you,",
+    "text": "or you’d like to know your growth content potential, we’d love to chat with you.",
+    "cta": "Let’s talk!"
+  },
+  "page.try": {
+    "title": "Demo to try Snapscreen",
+    "description": "",
+    "headline": "Try it now",
+    "howTo1emphasize": "Take your Smartphone and scan the QR-code",
+    "howTo1text": "or open our Demo in any mobile browser.",
+    "howTo2emphasize": "From there – take a Snap of the NBA stream",
+    "howTo2text": "and explore the magic.",
+    "instruction": "Scan QR code with your smartphone. Allow camera access and Snap!"
+  },
+  "page.press": {
+    "title": "Press clippings",
+    "description": "",
+    "headline": "Press mentions and updates along our journey.",
+    "emphasize": "We are proud that others have found our work as interesting and exciting as us!",
+    "text": "Find here some nice articles and press mentions about us."
+  },
+  "page.notfound": {
+    "title": "Sorry, not found",
+    "description": "We are great in detecting TV and streaming contents. Obviously not so in our own website contents."
+  },
+  "page.privacy": {
+    "title": "Privacy Policy for Snapscreen",
+    "description": "We believe you should always know what data we collect from you and how we use it, and that you should have meaningful control over both.",
+    "text" : "That’s the basic purpose of this Privacy Policy."
+  },
+  "page.terms": {
+    "title": "Terms of Use for Snapscreen",
+    "description": "These Terms of Service (“Terms”) govern your access to and use of our services, including our websites, APIs, email notifications and applications.",
+    "text": "Please read these Terms fully and carefully before using the Services."
+  },
+  "block.supportedBy": {
+    "title": "We are supported and trusted by"
+  },
+  "block.giveFeedback": {
+    "title": "Give us Feedback!",
+    "text": "Let us know how our product could help You in your business. What do you expect, miss or suggest? Please share Your thoughts with us.",
+    "cta": "Help us to get better!",
+    "thx": "Thank You."
+  },
+  "block.questions": {
+    "emphasize": "Find here some answers",
+    "text": "which are related to our product, business and technology."
+  },
+  "block.team": {
+    "emphasize": "Meet our disruptive team,",
+    "text": "highly skilled futurists finding new solutions for real problems."
+  },
+  "block.userJourney": {
+    "emphasize": "A user journey",
+    "text": "example with Snapscreen!"
+  },
+  "block.benefits": {
+    "emphasize": "Why Snapscreen is relevant",
+    "text": "for broadcasters of linear television or streaming."
+  },
+  "benefit.share": {
+    "emphasize": "People do share TV contents",
+    "text": "no matter if you like it or not.",
+    "small": "Take up an existing habit and make it your own."
+  },
+  "benefit.video": {
+    "emphasize": "Video is a megatrend",
+    "text": "with highest engagement.",
+    "small": "Use the power of the strongest media."
+  },
+  "benefit.habit": {
+    "emphasize": "Fundamental shift in viewing habits",
+    "text": "and industry structures.",
+    "small": "Let the second screen be your friend."
+  },
+  "benefit.deepfakes": {
+    "emphasize": "Fight fake news and deepfakes",
+    "text": "which are a real problem.",
+    "small": "Enable users to distribute your trusted content."
+  },
+  "benefit.backchannel": {
+    "emphasize": "Reach your audience",
+    "text": "and build a community.",
+    "small": "Get a direct backchannel."
+  },
+  "benefit.distribution": {
+    "emphasize": "A new content distribution",
+    "text": "will help you grow faster.",
+    "small": "Make television a more active content experience."
+  },
+  "block.innovation": {
+    "emphasize": "TV is the perfect medium",
+    "text": "to drive social conversation."
+  },
+  "innovation.snap": {
+    "emphasize": "Snap",
+    "text": "instantly with your mobile.",
+    "small": "Make the second screen a powerful tool."
+  },
+  "innovation.clip": {
+    "emphasize": "Clip",
+    "text": "fast, simple and easy.",
+    "small": "Drive clips as the most powerful media type."
+  },
+  "innovation.share": {
+    "emphasize": "Share",
+    "text": "created content and opinion.",
+    "small": "We enable democratizing TV."
+  },
+  "blockquote": {
+    "page.home": "Snapscreen breaks a barrier in sharing media files in journalism. By snapping a TV getting a high quality clip feels like magic! Free speech at a new level.",
+    "page.business": "With Snapscreen you take a screenshot of the action and it takes you 5 minutes back and then you just can clip it up. Whatever it is that you wanna see or share with your Friends. It is that easy!",
+    "page.vision": "We have proof there is strong desire to share what is on TV."
+  },
+  "action.discoverTV": "Discover TV",
+  "action.goBack": "Back to Home.",
+  "action.skipNavigation": "Skip to main content",
+  "action.try": "Try it now!",
+  "action.contact": "Get in touch!",
+  "action.vision": "Why we do this?",
+  "action.solution": "How we do this?",
+  "action.business": "What’s the business?",
+  "action.learnMore": "Learn more",
+  "action.subscribeUpdates": "Subscribe for updates",
+  "action.followLinkedin": "Follow us on LinkedIn",
+  "action.bookMeeting": "Book a meeting!",
+  "action.askQuestion": "Ask a question",
+  "question.wantToKnowMore": "Want to know more?",
+  "question.emailInstead": "Prefer Email instead?",
+  "action.close": "Close",
+  "offline": {
+    "status": "Offline",
+    "text": "You’re offline!",
+    "cta": "Please connect to a network."
   },
   "team.willo": {
     "name": "Thomas Willomitzer",
@@ -34,44 +221,12 @@
     "email": "markus.rumler@snapscreen.com",
     "linkedIn": "https://www.linkedin.com/in/rumler/"
   },
-  "page.solution": {
-    "title": "We solve problems of broadcasters.",
-    "headline": "Engage and keep Your viewers."
-  },
-  "page.benefits": {
-    "title": "We enable viewers to create and share clips with a snap.",
-    "headline": "Share and show your excitement."
-  },
-  "page.faq": {
-    "title": "Frequently asked questions.",
-    "headline": ""
-  },
-  "page.about": {
-    "title": "About our vision and the company",
-    "headline": "We enable a new TV or video stream experience.",
-    "copyLead": "Snapscreen enables people to capture and share TV moments they love as a clip.",
-    "copy": "Our solution works with live TV and streaming. Snapscreen turns the camera on a mobile device into a versatile tool to entertain, retain and engage viewers in a intuitive way."
-  },
-  "page.try": {
-    "title": "Try out Snapscreen live now",
-    "headline": ""
-  },
-  "page.notfound": {
-    "title": "Sorry, not found",
-    "description": "We are great in detecting TV and streaming contents. Obviously not so in our own website contents."
-  },
-  "page.styleguide": "Styleguide",
-  "description": "The content sharing revolution for TV/OTT!",
-  "selectLang": "All languages",
-  "masthead.title": "Clips of Your TV or streaming program for users to share.",
-  "masthead.subline": "Snap, clip and share.",
-  "footer.navigation.terms": "Terms of use",
-  "footer.navigation.privacy": "Privacy policy",
-  "footer.copyright": "All rights reserved.",
-  "successVideo.action": "See how it works",
-  "successVideo.title": "FOX Sports – A Clipshare Success Story!",
-  "action.goBack": "Back to Home",
-  "action.try": "Try it LIVE",
-  "action.learnMore": "Learn more",
-  "action.bookMeeting": "Book a meeting"
+  "team.dmitry": {
+    "name": "Dmitry Nikolaev",
+    "nick": "Dmitry",
+    "role": "Co-Founder and Computer Vision",
+    "about": "...",
+    "email": "dmitry.nikolaev@snapscreen.com",
+    "linkedIn": "https://www.linkedin.com/in/dmitry-nikolaev-09533219/"
+  }
 }

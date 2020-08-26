@@ -24,8 +24,29 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `blog`,
-        path: `${__dirname}/src/blog`,
+        name: `press`,
+        path: `${__dirname}/src/press`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `faq`,
+        path: `${__dirname}/src/faq`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `privacy`,
+        path: `${__dirname}/src/legal/privacy.md`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `terms`,
+        path: `${__dirname}/src/legal/terms.md`,
       },
     },
     {
@@ -64,7 +85,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-offline`, // needs to be after manifest!
       options: {
-        precachePages: [`/vision`, `/solution`, `/business`, `/contact`, `/try`],
+        precachePages: [`/vision`, `/solution`, `/business`, `/contact`, `/try`, `/privacy`, `/terms`],
       },
     },
     {

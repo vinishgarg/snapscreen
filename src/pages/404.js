@@ -1,9 +1,8 @@
-import React from "react"
-import { Link } from "gatsby"
-import { FormattedMessage, injectIntl } from "gatsby-plugin-intl"
-import { Container, Row, Col, Jumbotron, Image } from "react-bootstrap"
-import Layout from "@components/layout"
-import SEO from "@components/helper/seo"
+import React from 'react'
+import { FormattedMessage, injectIntl, Link } from 'gatsby-plugin-intl'
+import { Container, Row, Col, Jumbotron, Image } from 'react-bootstrap'
+import Layout from '@components/layout'
+import SEO from '@components/helper/seo'
 import ErrorImg from '@assets/404.gif'
 
 const ErrorPage = ({ intl }) => {
@@ -11,7 +10,8 @@ const ErrorPage = ({ intl }) => {
       <Layout>
         <SEO
           lang={intl.locale}
-          title={`404: ${intl.formatMessage({ id: "title" })}`}
+          title={`404: ${intl.formatMessage({ id: "page.notfound.title" })}`}
+          description={intl.formatMessage({ id: "page.notfound.description" })}
         />
         <Jumbotron>
           <Container>
@@ -20,7 +20,11 @@ const ErrorPage = ({ intl }) => {
                 <h1 className="display-2 mb-4 py-4">
                   <strong><FormattedMessage id="page.notfound.title" /></strong>
                 </h1>
-                <p className="lead"><FormattedMessage id="page.notfound.description" /> <span role="img" aria-label="Winking Smiley">😞</span></p>
+                <p className="lead">
+                  <FormattedMessage id="page.notfound.description" />
+                  {" "}
+                  <span role="img" aria-label="Winking Smiley">😞</span>
+                </p>
                 <div className="pt-4">
                   <Link to="/" className="btn btn-primary btn-lg">
                     <FormattedMessage id="action.goBack" />
@@ -28,7 +32,7 @@ const ErrorPage = ({ intl }) => {
                 </div>
               </Col>
               <Col xs="12" lg={{ span: 5, order: 1 }} className="mt-3">
-                <Image src={ErrorImg} width={600} fluid alt="Error 404" className="shadow-lg" />
+                <Image src={ErrorImg} width={600} fluid alt="Error 404" />
               </Col>
             </Row>
           </Container>

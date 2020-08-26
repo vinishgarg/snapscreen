@@ -37,6 +37,7 @@
 }
 
 $font-family-sans-serif: 'Inter', -apple-system, sans-serif !default;
+$font-family-serif: Palatino, Times, Times New Roman, serif !default;
 
 // Restated Bootstrap Variables
 
@@ -77,7 +78,7 @@ $dark: $gray-800 !default;
 $link-color: $brand;
 $border-color: $light !default;
 
-$body-bg: $gray-100 !default;
+$body-bg: $white !default;
 
 $display1-size: 4.5em !default;
 $display2-size: 3.5em !default;
@@ -89,7 +90,7 @@ $display2-weight: 600;
 $display3-weight: 600;
 $display4-weight: 600;
 
-$headings-color: $gray-700 !default;
+$headings-color: $black !default;
 $headings-font-weight: 600 !default;
 
 $box-shadow-lg: 0 1rem 3rem rgba($black, .175) !default;

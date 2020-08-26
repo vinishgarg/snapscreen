@@ -1,17 +1,10 @@
 import React from 'react'
 import { FormattedMessage, injectIntl, Link } from 'gatsby-plugin-intl'
-import { Container, Row, Col, Jumbotron, Image, Media, Card, ResponsiveEmbed } from 'react-bootstrap'
-
+import { Container, Row, Col, Jumbotron } from 'react-bootstrap'
 import ReactTypingEffect from '@components/vendor/react-typing-effect/src/lib/'
-// import ReactTypingEffect from 'react-typing-effect'
-
 import Layout from '@components/layout'
 import SEO from '@components/helper/seo'
-// import OurStars from '@components/block/ourStars'
-// import VideoModal from '@components/element/successVideo'
-// import VideoStream from '@components/element/videoStream'
-// import PopoverPerson from '@components/element/popoverPerson'
-import Testimonial from '@components/element/testimonial'
+import OurInnovation from '@components/block/ourInnovation'
 import SupportedBy from '@components/block/supportedBy'
 
 const IndexPage = ({ intl }) => {
@@ -20,16 +13,15 @@ const IndexPage = ({ intl }) => {
       <SEO
         lang={intl.locale}
         title={intl.formatMessage({ id: "title" })}
-        keywords={[`clipshare`, `snapscreen`, `innovative`]}
+        keywords={[`innovation`, `television`, `streaming`, `marketing`]}
       />
-      {/*<Masthead />*/}
       <Jumbotron>
         <Container>
           <Row>
             <Col xs="12" md="10" lg="9" className="ml-auto mr-auto">
-              <div className="lead-title">Share and discover what’s on TV.</div>
-              <h1 className="display-2 mb-4 py-4">
-                <strong>Did You snap this</strong>
+              <div className="lead-title"><FormattedMessage id="page.home.title" /></div>
+              <h1 className="display-2 mb-4 py-4" style={{minHeight: 240}}>
+                <strong><FormattedMessage id="page.home.headlinePre" /></strong>
                 {' '}
                 <span className="text-primary">
                   <ReactTypingEffect
@@ -37,64 +29,37 @@ const IndexPage = ({ intl }) => {
                     typingDelay={1000}
                     text={
                       [
-                        "epic moment",
-                        "incredible news",
-                        "amazing Slam-Dunk",
-                        "hilarious laugh",
-                        "magic Touch-down",
-                        "awesome action"
+                        intl.formatMessage({ id: "page.home.type1" }),
+                        intl.formatMessage({ id: "page.home.type2" }),
+                        intl.formatMessage({ id: "page.home.type3" }),
+                        intl.formatMessage({ id: "page.home.type4" }),
+                        intl.formatMessage({ id: "page.home.type5" }),
+                        intl.formatMessage({ id: "page.home.type6" })
                       ]
                     }
                   />
                 </span>
                 {' '}
-                <strong>on TV?</strong>
+                <strong><FormattedMessage id="page.home.headlinePost" /></strong>
               </h1>
               <p className="lead">
-                <strong>You have 2 options to share what’s on TV:</strong> Either have a good fortune teller
-                who knows when you need to record the TV screen – OR –
-                have Snapscreen ready on your mobile phone and never miss any favorite moment on TV ever again. Let us know which solution you prefer.
+                <strong><FormattedMessage id="page.home.emphasize" /></strong>
+                {" "}
+                <FormattedMessage id="page.home.text" />
               </p>
               <div className="pt-4 text-center text-sm-left">
-                <Link to="/try/" className="btn btn-primary btn-lg">
-                  Try it now
+                <Link to="/try" className="btn btn-primary btn-lg">
+                  <FormattedMessage id="action.try" />
                 </Link>
-                <Link to="/vision/" className="btn btn-link btn-lg mx-sm-2 mt-2 mt-sm-0">
-                  Why we do this?
+                <Link to="/vision" className="btn btn-link btn-lg mx-sm-2 mt-2 mt-sm-0">
+                  <FormattedMessage id="action.vision" />
                 </Link>
               </div>
             </Col>
-            {/*
-            <Col xs="12" lg={{span: '5', order: '1'}} className="mt-5">
-              <VideoStream id="9bREhNfkCHw" autoplay="0" mute="0" />
-              <p className="mt-4">
-                Snapscreen is implemented and used as FOX Clips
-                in the <a href="https://australia.rugby/news/2019/05/27/fox-clips-rugby-x" target="_blank" rel="noopener noreferrer">Rugby Explorer</a> App.
-              </p>
-            </Col>
-            */}
           </Row>
         </Container>
       </Jumbotron>
-      <section className="">
-        <Container>
-          <Row>
-            <Col xs="12" lg="6" className="mr-auto mb-4">
-              <h2 className="h3">
-                <strong>Real use cases</strong> by specific roles.
-              </h2>
-            </Col>
-          </Row>
-          <div className="card-grid">
-            <Testimonial role="Journalist" medium="FOX news" name="Joe Concha" img="https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2020/02/696/392/JOE-CONCHA.jpg?ve=1&tl=1">
-              <p>Snapscreen breaks a barrier in sharing media files in journalism. By snapping a TV getting a high quality clip feels like magic! Free speech at a new level.</p>
-            </Testimonial>
-            <Testimonial role="Journalist" medium="Techchrunch" name="Zack Whittaker" img="https://crunchbase-production-res.cloudinary.com/image/upload/w_400,h_400,c_thumb,g_faces/arqrabrudwyofg3sb2pl">
-              <p>Snapscreen breaks a barrier in sharing media files in journalism. By snapping a TV getting a high quality clip feels like magic! Free speech at a new level.</p>
-            </Testimonial>
-          </div>
-        </Container>
-      </section>
+      <OurInnovation />
       <SupportedBy />
     </Layout>
   )
