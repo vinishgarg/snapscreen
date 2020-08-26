@@ -1,7 +1,7 @@
 module.exports = {
-  pathPrefix: `/clipshare`,
+  pathPrefix: `/snapscreen`,
   siteMetadata: {
-    siteUrl: `https://zeitvertrieb.github.io/clipshare/`,
+    siteUrl: `https://zeitvertrieb.github.io/snapscreen/`,
     title: `Snapscreen`,
     description: `We make TV and streaming discoverable and shareable.`,
     author: `@snapscreen`,
