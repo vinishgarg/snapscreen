@@ -95,36 +95,3 @@ section {
 .grayscale {
   filter: grayscale(100%);
 }
-
-.divided {
-  // position: relative;
-  // @include media-breakpoint-up(md) {
-  //   overflow-x: hidden;
-  // }
-  //
-  // &:before,
-  // &:after {
-  //   content: "";
-  //   position: absolute;
-  //   height: 2px;
-  //   width: 25%;
-  //   background-color: $black;
-  // }
-  // &:before {
-  //   left: 50%;
-  //   transform: translate(-50%, -2em);
-  //   @include media-breakpoint-up(md) {
-  //     top: 50%;
-  //     left: auto;
-  //     transform: translate(calc(-100% - 1rem), 0);
-  //   }
-  // }
-  // &:after {
-  //   top: 50%;
-  //   transform: translate(1rem, 0);
-  //   display: none;
-  //   @include media-breakpoint-up(md) {
-  //     display: inline-block;
-  //   }
-  // }
-}
