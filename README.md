@@ -6,10 +6,14 @@ Here you find the deployed version: https://zeitvertrieb.github.io/clipshare/
 
 ## Develop
 
-yarn install
-yarn start
-yarn deploy
+- yarn install
+- yarn start
+- yarn deploy
 
 ## GIT
 
-git push origin
+**Master branch is used as github pages**
+
+Terminal commands:
+- git commit -a -m "commit message"
+- git push origin develop
