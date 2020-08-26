@@ -27,17 +27,17 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-5ddd83be320dc443772a.js"
+    "url": "webpack-runtime-f85b7fb081676b8e80f5.js"
   },
   {
     "url": "framework-02fcab78320a77685ff9.js"
   },
   {
-    "url": "app-fb6b1382e71695bf6fdb.js"
+    "url": "app-5c51dde36bf3996d1fb7.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "7dbc1d5b9bf67ea3779f86ba0eb4ce85"
+    "revision": "194ead3f3e891b42a107ca50c1f5032b"
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-5a1ee105f05b3144b807.js"
@@ -51,13 +51,13 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "3b82dd47731cb25afaf29c35232f8a40"
+    "revision": "b75243222a1d3928020e6adda5b0ce31"
   },
   {
     "url": "polyfill-1c73eff1cb06dfe3be93.js"
   },
   {
-    "url": "styles.c3101912e0273f629305.css"
+    "url": "styles.84e561f114da469fbc00.css"
   },
   {
     "url": "styles-c2fe8482057191dca484.js"
@@ -122,7 +122,7 @@ self.__precacheManifest = [
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "d1752e2bbbb54d565f8ba2b84873cf82"
+    "revision": "5a714e7438b05d470ce6a7ddc8d5bfef"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
@@ -210,12 +210,12 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   lastNavigationRequest = event.request.url
 
   let { pathname } = new URL(event.request.url)
-  pathname = pathname.replace(new RegExp(`^/clipshare`), ``)
+  pathname = pathname.replace(new RegExp(`^/snapscreen`), ``)
 
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/clipshare/app-fb6b1382e71695bf6fdb.js`))) {
+  if (!resources || !(await caches.match(`/snapscreen/app-5c51dde36bf3996d1fb7.js`))) {
     return await fetch(event.request)
   }
 
@@ -228,7 +228,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
     }
   }
 
-  const offlineShell = `/clipshare/offline-plugin-app-shell-fallback/index.html`
+  const offlineShell = `/snapscreen/offline-plugin-app-shell-fallback/index.html`
   const offlineShellWithKey = workbox.precaching.getCacheKeyForURL(offlineShell)
   return await caches.match(offlineShellWithKey)
 })
