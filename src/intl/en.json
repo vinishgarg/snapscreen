@@ -40,7 +40,7 @@
   "page.solution": {
     "title": "Our Solution",
     "description": "",
-    "headline": "As a viewer I can share and discover moments of TV.",
+    "headline": "As a viewer I want to share and discover moments of TV.",
     "emphasize": "Have you ever tried sharing what's on TV?",
     "text": "With Snapscreen you simply take a photo (Snapshot) of a TV or streaming with your mobile. Snapscreen detects instantly the specific moment of the programm. You can rewind in time, create a clip and share this in broadcast quality."
   },
@@ -55,7 +55,7 @@
     "title": "Frequently asked questions.",
     "description": "",
     "headline": "There’s no such thing as a stupid question.",
-    "emphasize": "Snapscreen is a new and innovative.",
+    "emphasize": "Snapscreen is new and innovative.",
     "text": "It is in our interest to help you understand our idea and what we provide. We also would like to get your feedback and hear your thoughts. Feel free to ask us anything you like to know."
   },
   "page.contact": {
