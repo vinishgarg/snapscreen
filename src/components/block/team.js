@@ -8,7 +8,7 @@ const Team = ({ intl }) => {
   var team = [
     'willo',
     'matthias',
-    'dmitry',
+    'eugene',
   ]
 
   return (

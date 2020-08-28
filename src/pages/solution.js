@@ -41,6 +41,7 @@ const solutionPage = ({ intl }) => {
           </Row>
         </Container>
       </Jumbotron>
+      <UserJourney />
       <section className="">
         <Container>
           <Row>
@@ -57,7 +58,6 @@ const solutionPage = ({ intl }) => {
           </Row>
         </Container>
       </section>
-      <UserJourney />
       <GiveFeedback />
       <SupportedBy />
     </Layout>

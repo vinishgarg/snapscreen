@@ -153,23 +153,23 @@
     "small": "Make television a more active content experience."
   },
   "block.innovation": {
-    "emphasize": "TV is the perfect medium",
-    "text": "to drive social conversation."
+    "emphasize": "With Snapscreen you can share what's on TV",
+    "text": "and drive your social conversation."
   },
   "innovation.snap": {
-    "emphasize": "Snap",
-    "text": "instantly with your mobile.",
-    "small": "Make the second screen a powerful tool."
+    "emphasize": "Breaking barriers",
+    "text": "between TV and social conversation.",
+    "small": "Simply, share your excitement!"
   },
   "innovation.clip": {
-    "emphasize": "Clip",
-    "text": "fast, simple and easy.",
-    "small": "Drive clips as the most powerful media type."
+    "emphasize": "Keeping the perfect moment",
+    "text": "instant, fast and easy.",
+    "small": "Snap, clip and share – easy with your mobile."
   },
   "innovation.share": {
-    "emphasize": "Share",
-    "text": "created content and opinion.",
-    "small": "We enable democratizing TV."
+    "emphasize": "Discovering great moments of TV",
+    "text": "shared by your and others.",
+    "small": "Democratizing the TV experience."
   },
   "blockquote": {
     "page.home": "Snapscreen breaks a barrier in sharing media files in journalism. By snapping a TV getting a high quality clip feels like magic! Free speech at a new level.",
@@ -228,5 +228,13 @@
     "about": "...",
     "email": "dmitry.nikolaev@snapscreen.com",
     "linkedIn": "https://www.linkedin.com/in/dmitry-nikolaev-09533219/"
+  },
+  "team.eugene": {
+    "name": "Eugene Zatepyakin",
+    "nick": "Eugene",
+    "role": "Co-Founder and Visual Effects",
+    "about": "Eugene was born in Moscow Russia and lives now in Vienna, Austria. He is well known for his video filter app MSQRD which Facebook acquired in 2016. He doesn’t try to focus on specific topics in his work and experiments. Everything that he touches on seems interesting to him: Generative art, math algorithms, image processing, 3D stuff and so on.",
+    "email": "eugene.zatepyakin@snapscreen.com",
+    "linkedIn": "https://www.linkedin.com/company/snapscreen/"
   }
 }

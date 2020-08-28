@@ -153,23 +153,23 @@
     "small": "Make television a more active content experience."
   },
   "block.innovation": {
-    "emphasize": "TV ist das perfekte Medium, ",
-    "text": "um soziale Konversation voranzutreiben."
+    "emphasize": "Mit Snapscreen kannst du teilen, was im Fernsehen läuft,",
+    "text": "und deine sozialen Konversationen führen."
   },
   "innovation.snap": {
-    "emphasize": "Snap",
-    "text": "instantly with your mobile.",
-    "small": "Make the second screen a powerful tool."
+    "emphasize": "Breaking barriers",
+    "text": "between TV and social conversation.",
+    "small": "Simply, share your excitement!"
   },
   "innovation.clip": {
-    "emphasize": "Clip",
-    "text": "fast, simple and easy.",
-    "small": "Drive clips as the most powerful media type."
+    "emphasize": "Keeping the perfect moment",
+    "text": "instant, fast and easy.",
+    "small": "Snap, clip and share – easy with your mobile."
   },
   "innovation.share": {
-    "emphasize": "Share",
-    "text": "created content and opinion.",
-    "small": "We enable democratizing TV."
+    "emphasize": "Discovering great moments of TV",
+    "text": "shared by your and others.",
+    "small": "Democratizing the TV experience."
   },
   "blockquote": {
     "page.home": "Snapscreen breaks a barrier in sharing media files in journalism. By snapping a TV getting a high quality clip feels like magic! Free speech at a new level.",
@@ -228,5 +228,13 @@
     "about": "...",
     "email": "dmitry.nikolaev@snapscreen.com",
     "linkedIn": "https://www.linkedin.com/in/dmitry-nikolaev-09533219/"
+  },
+  "team.eugene": {
+    "name": "Eugene Zatepyakin",
+    "nick": "Eugene",
+    "role": "Co-Founder und Visual Effects",
+    "about": "Eugene wurde in Moskau, Russland, geboren und lebt jetzt in Wien, Österreich. Er ist bekannt für seine Videofilter-App MSQRD, die Facebook 2016 erworben hat. Er versucht nicht, sich in seinen Arbeiten und Experimenten auf bestimmte Themen zu konzentrieren. Alles, was er berührt, scheint ihm interessant zu sein: Generative Kunst, mathematische Algorithmen, Bildverarbeitung, 3D-Material etc.",
+    "email": "eugene.zatepyakin@snapscreen.com",
+    "linkedIn": "https://www.linkedin.com/company/snapscreen/"
   }
 }
