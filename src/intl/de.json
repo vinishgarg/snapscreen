@@ -113,70 +113,70 @@
     "text": "zu unserem Produkt, Geschäftsmodell und der Technologie."
   },
   "block.team": {
-    "emphasize": "Meet our disruptive team,",
-    "text": "highly skilled futurists finding new solutions for real problems."
+    "emphasize": "Treffen Sie unser disruptives Team,",
+    "text": "hochqualifizierte Futuristen, die neue Lösungen für echte Probleme finden."
   },
   "block.userJourney": {
     "emphasize": "Wir versuchen, die bestmögliche Benutzerfreundlichkeit zu erreichen!",
     "text": "Hier ein einfaches Beispiel zur Nutzung von Snapscreen."
   },
   "block.benefits": {
-    "emphasize": "Why Snapscreen is relevant",
-    "text": "for broadcasters of linear television or streaming."
+    "emphasize": "Warum Snapscreen relevant ist",
+    "text": "von Sendern linearen Fernsehens oder Streaming."
   },
   "benefit.share": {
-    "emphasize": "People do share TV contents",
-    "text": "no matter if you like it or not.",
-    "small": "Take up an existing habit and make it your own."
+    "emphasize": "Menschen teilen TV Inhalte",
+    "text": "egal ob es dir gefällt oder nicht.",
+    "small": "Nimm eine bestehende Gewohnheit auf und nutze sie."
   },
   "benefit.video": {
-    "emphasize": "Video is a megatrend",
-    "text": "with highest engagement.",
-    "small": "Use the power of the strongest media."
+    "emphasize": "Video ist ein Megatrend",
+    "text": "mit höchstem Engagement.",
+    "small": "Nutze die Power des stärksten Mediums."
   },
   "benefit.habit": {
-    "emphasize": "Fundamental shift in viewing habits",
-    "text": "and industry structures.",
-    "small": "Let the second screen be your friend."
+    "emphasize": "Grundlegende Veränderung der Sehgewohnheiten",
+    "text": "und Branchenstrukturen.",
+    "small": "Lass den zweiten Bildschirm dein Freund sein."
   },
   "benefit.deepfakes": {
-    "emphasize": "Fight fake news and deepfakes",
-    "text": "which are a real problem.",
-    "small": "Enable users to distribute your trusted content."
+    "emphasize": "Bekämpfe gefälschte Nachrichten und Deepfakes",
+    "text": "die ein echtes Problem sind.",
+    "small": "Ermögliche Benutzern, deine vertrauenswürdigen Inhalte zu teilen."
   },
   "benefit.backchannel": {
-    "emphasize": "Reach your audience",
-    "text": "and build a community.",
-    "small": "Get a direct backchannel."
+    "emphasize": "Erreiche dein Publikum",
+    "text": "und baue eine Community auf.",
+    "small": "Hole dir einen direkten Backchannel."
   },
   "benefit.distribution": {
-    "emphasize": "A new content distribution",
-    "text": "will help you grow faster.",
-    "small": "Make television a more active content experience."
+    "emphasize": "Eine neue Inhaltsverteilung",
+    "text": "wird dir helfen, schneller zu wachsen.",
+    "small": "Mach das Fernsehen zu einem aktiveren Content-Erlebnis."
   },
   "block.innovation": {
     "emphasize": "Mit Snapscreen kannst du teilen, was im Fernsehen läuft,",
     "text": "und deine sozialen Konversationen führen."
   },
   "innovation.snap": {
-    "emphasize": "Breaking barriers",
-    "text": "between TV and social conversation.",
-    "small": "Simply, share your excitement!"
+    "emphasize": "Grenzen überwinden",
+    "text": "zwischen TV and sozialen Gesprächen.",
+    "small": "Teile deine Freude und Spannung einfach!"
   },
   "innovation.clip": {
-    "emphasize": "Keeping the perfect moment",
-    "text": "instant, fast and easy.",
-    "small": "Snap, clip and share – easy with your mobile."
+    "emphasize": "Halte den perfekten Moment fest",
+    "text": "unmittelbar, schnell und einfach.",
+    "small": "Snap, clip und teile – einfach mit dem Handy."
   },
   "innovation.share": {
-    "emphasize": "Discovering great moments of TV",
-    "text": "shared by your and others.",
-    "small": "Democratizing the TV experience."
+    "emphasize": "Entdecke grosse TV Momente",
+    "text": "von dir und anderen geteilt.",
+    "small": "Demokratisierung des TV-Erlebnisses."
   },
   "blockquote": {
-    "page.home": "Snapscreen breaks a barrier in sharing media files in journalism. By snapping a TV getting a high quality clip feels like magic! Free speech at a new level.",
-    "page.business": "With Snapscreen you take a screenshot of the action and it takes you 5 minutes back and then you just can clip it up. Whatever it is that you wanna see or share with your Friends. It is that easy!",
-    "page.vision": "We have proof there is strong desire to share what is on TV."
+    "page.home": "Snapscreen durchbricht eine Barriere beim Teilen von Mediendateien im Journalismus. Wenn Sie einen Fernseher snappen, fühlt sich ein qualitativ hochwertiger Clip wie Magie an! Redefreiheit auf neuem Niveau.",
+    "page.business": "Mit Snapscreen machen Sie einen Screenshot der Aktion, der bringt Sie 5 Minuten zurück und dann können Sie es einfach einen Clip erzeugen. Was auch immer Sie sehen oder mit Ihren Freunden teilen möchten. So einfach ist das!",
+    "page.vision": "Wir haben Beweise dafür, dass es einen starken Wunsch gibt, das zu teilen, was im Fernsehen läuft."
   },
   "action.discoverTV": "TV entdecken",
   "action.goBack": "Zurück zu Home.",
