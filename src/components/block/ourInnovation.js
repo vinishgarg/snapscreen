@@ -3,21 +3,26 @@ import { FormattedMessage, injectIntl } from 'gatsby-plugin-intl'
 import { Container, Row, Col } from 'react-bootstrap'
 import Innovation from '@components/element/innovation'
 
+import watchTVImg from '@assets/image/watching-tv.jpg'
+import snapTVImg from '@assets/image/snap-with-mobile-phone.jpg'
+import checkSocialsImg from '@assets/image/checking-social-media.jpg'
+
+
 const OurInnovation = ({ intl }) => {
 
   const innovations = [
     {
-      imgSrc: "https://media.gettyimages.com/videos/young-woman-having-fun-while-watching-tv-at-night-video-id511903846?s=640x640",
+      imgSrc: watchTVImg,
       imgAlt: "Tune in with mobile",
       label: "snap"
     },
     {
-      imgSrc: "https://burst.shopifycdn.com/photos/woman-holding-mobile-phone.jpg",
+      imgSrc: snapTVImg,
       imgAlt: "Tune in with mobile",
       label: "clip"
     },
     {
-      imgSrc: "https://images.pond5.com/group-friends-checking-social-media-footage-075325073_iconl.jpeg",
+      imgSrc: checkSocialsImg,
       imgAlternative: "https://www.incimages.com/uploaded_files/image/1920x1080/getty_683980724_2000133320009280290_347049.jpg",
       imgAlternative: "https://i.ytimg.com/vi/Z_W3NHaAoC0/maxresdefault.jpg",
       imgAlt: "Discover great moments of TV shared by viewers",

@@ -14,14 +14,12 @@ import SnapButton from '@components/element/snapButton'
 
 import 'modern-normalize/modern-normalize.css'
 import '../scss/styles.scss'
-// import 'font-awesome/css/font-awesome.css'
 
 const Layout = ({ children, intl }) => {
   return (
     <React.Fragment>
       <CustomNavbar siteTitle={intl.formatMessage({ id: "title" })} />
       <main id="main">{children}</main>
-      <SnapButton />
       <Footer />
     </React.Fragment>
   )
