@@ -64,7 +64,9 @@
     "headline": "Deine glänzende Zukunft beginnt mit einem einfachen Gespräch.",
     "emphasize": "Whether you are curious how Snapscreen works with you,",
     "text": "or you’d like to know your growth content potential, we’d love to chat with you.",
-    "cta": "Lass uns reden!"
+    "cta": "Lass uns reden!",
+    "sayThanksEmphasize": "Danke, für dein Interesse an Snapscreen.",
+    "sayThanks": "Wir freuen uns von dir zu hören!"
   },
   "page.try": {
     "title": "Demo to try Snapscreen",

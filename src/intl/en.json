@@ -64,7 +64,9 @@
     "headline": "Your bright future starts with a simple conversation.",
     "emphasize": "Whether you are curious how Snapscreen works with you,",
     "text": "or you’d like to know your growth content potential, we’d love to chat with you.",
-    "cta": "Let’s talk!"
+    "cta": "Let’s talk!",
+    "sayThanksEmphasize": "Thanks, for your interest in Snapscreen.",
+    "sayThanks": "We are happy to hear from you!"
   },
   "page.try": {
     "title": "Demo to try Snapscreen",

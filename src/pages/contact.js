@@ -54,14 +54,9 @@ const Contact = ({ intl }) => {
           <Row>
             <Col xs="12" sm="10" md="8" lg="8" className="mr-auto mb-4">
               <h2 className="h3">
-                <strong>Subscribe</strong> to receive updates.
+                <strong><FormattedMessage id={"page.contact.sayThanksEmphasize"} /></strong>{' '}
+                <FormattedMessage id={"page.contact.sayThanks"} />
               </h2>
-            </Col>
-          </Row>
-          <Row>
-            <Col xs="12">
-            </Col>
-            <Col xs="12" sm="10" md="6" lg="4" className="">
             </Col>
           </Row>
         </Container>
