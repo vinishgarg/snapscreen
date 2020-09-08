@@ -27,38 +27,26 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-253ad0f0a79db2052f94.js"
+    "url": "webpack-runtime-f2ce59200f2ae88f8697.js"
   },
   {
     "url": "framework-02fcab78320a77685ff9.js"
   },
   {
-    "url": "app-84f620fc15c9c67f5f32.js"
+    "url": "app-c3584ba106b90a40f74c.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "97c275b07e917a4ce36d5be36dffd6fd"
+    "revision": "692b3f7013fbe949cf00a459a0a68d80"
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-5a1ee105f05b3144b807.js"
   },
   {
-    "url": "page-data/offline-plugin-app-shell-fallback/page-data.json",
-    "revision": "7e2d6ec41674931ba2f3def1e84eaadc"
-  },
-  {
-    "url": "page-data/sq/d/63159454.json",
-    "revision": "118540702d8bd1ffae71683bf8247568"
-  },
-  {
-    "url": "page-data/app-data.json",
-    "revision": "5b1395c2f3c0916b26f8a47e71b282a6"
-  },
-  {
     "url": "polyfill-1c73eff1cb06dfe3be93.js"
   },
   {
-    "url": "styles.e5545b1a3bef50a922bf.css"
+    "url": "styles.a123dcc48f6caa22b4c5.css"
   },
   {
     "url": "styles-c2fe8482057191dca484.js"
@@ -74,7 +62,15 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/vision/page-data.json",
-    "revision": "28ba5a6901e5d359ce49997b6b75638a"
+    "revision": "631710527573ea7cc288f8e0b145227d"
+  },
+  {
+    "url": "page-data/sq/d/63159454.json",
+    "revision": "118540702d8bd1ffae71683bf8247568"
+  },
+  {
+    "url": "page-data/app-data.json",
+    "revision": "a024571b794e745791c9138e0ea9be1a"
   },
   {
     "url": "bbb9d758df040dca054f7d984c21ef926603eeba-0674552d8fbfba1624e3.js"
@@ -84,46 +80,46 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/solution/page-data.json",
-    "revision": "519f215a762e4f4f950b1322abea9d7a"
+    "revision": "d78849916c1c263eb654ef9186fb5a86"
   },
   {
     "url": "component---src-pages-business-js-3083e01b372e22b63894.js"
   },
   {
     "url": "page-data/business/page-data.json",
-    "revision": "47ab12d17731b9f94864bc748935d764"
+    "revision": "ea5aa0811fe26046cd0ecb9642525c4d"
   },
   {
     "url": "component---src-pages-contact-js-ac557b92019f1f64e222.js"
   },
   {
     "url": "page-data/contact/page-data.json",
-    "revision": "77683feca82dc6cbe9f045313338276f"
+    "revision": "277c3b928fb3f21488af25a721515d11"
   },
   {
     "url": "component---src-pages-try-js-24c46b10326929f474c0.js"
   },
   {
     "url": "page-data/try/page-data.json",
-    "revision": "96e5808fec5d16e5f49132f954d38c69"
+    "revision": "99b1d0dde250ea8768e1d762911a9e2f"
   },
   {
     "url": "component---src-pages-privacy-js-0327356d7f26d64a7d7b.js"
   },
   {
     "url": "page-data/privacy/page-data.json",
-    "revision": "cd7689e712c077cf86a43a0202a2f88a"
+    "revision": "c26b9d4f3e37bfa28e1499b955e61187"
   },
   {
     "url": "component---src-pages-terms-js-d7f0c13600ccf9dcd450.js"
   },
   {
     "url": "page-data/terms/page-data.json",
-    "revision": "6fbf2024503a952ec60328bcb69813b9"
+    "revision": "5aae348e435507271107f656717aefb1"
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "5a714e7438b05d470ce6a7ddc8d5bfef"
+    "revision": "b8124e97ec2c1f50adf48380a14e260a"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
@@ -211,12 +207,12 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   lastNavigationRequest = event.request.url
 
   let { pathname } = new URL(event.request.url)
-  pathname = pathname.replace(new RegExp(`^/snapscreen`), ``)
+  pathname = pathname.replace(new RegExp(`^`), ``)
 
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/snapscreen/app-84f620fc15c9c67f5f32.js`))) {
+  if (!resources || !(await caches.match(`/app-c3584ba106b90a40f74c.js`))) {
     return await fetch(event.request)
   }
 
@@ -229,7 +225,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
     }
   }
 
-  const offlineShell = `/snapscreen/offline-plugin-app-shell-fallback/index.html`
+  const offlineShell = `/offline-plugin-app-shell-fallback/index.html`
   const offlineShellWithKey = workbox.precaching.getCacheKeyForURL(offlineShell)
   return await caches.match(offlineShellWithKey)
 })
