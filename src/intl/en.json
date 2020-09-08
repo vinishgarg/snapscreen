@@ -118,7 +118,11 @@
   },
   "block.userJourney": {
     "emphasize": "We try to create best ease of use!",
-    "text": "Here a simple user journey example with Snapscreen."
+    "text": "Here a simple user journey example with Snapscreen.",
+    "one": "Ben is journalist. He follows news on TV. He often sees something that he wants to share and comment in social media.",
+    "two": "He takes his mobile, opens Snapscreen and takes a photo of the TV. He can scroll back in time, create the clip to capture the perfect moment and add a comment.",
+    "three": "His high quality clip is save in his Snapscreen profile. So he can share it anytime later. He also can download the clip and share it on Instagram or Youtube.",
+    "four": "The Embed function allows Ben to integrate the clip on his website or blog. Snapscreen makes it very easy to create, share and comment on TV contents – within seconds!"
   },
   "block.benefits": {
     "emphasize": "Why Snapscreen is relevant",

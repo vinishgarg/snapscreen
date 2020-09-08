@@ -23,8 +23,6 @@ const OurInnovation = ({ intl }) => {
     },
     {
       imgSrc: checkSocialsImg,
-      imgAlternative: "https://www.incimages.com/uploaded_files/image/1920x1080/getty_683980724_2000133320009280290_347049.jpg",
-      imgAlternative: "https://i.ytimg.com/vi/Z_W3NHaAoC0/maxresdefault.jpg",
       imgAlt: "Discover great moments of TV shared by viewers",
       label: "share"
     }

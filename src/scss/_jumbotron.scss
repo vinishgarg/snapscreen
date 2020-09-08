@@ -1,0 +1,24 @@
+.jumbotron {
+  border-radius: 0;
+  padding-left: 0;
+  padding-right: 0;
+  background: $brand-dark;
+  margin-bottom: 0;
+
+  h1 {
+    min-height: 240px;
+    @include media-breakpoint-up(md) {
+      min-height: 200px;
+    }
+    @include media-breakpoint-up(lg) {
+      min-height: 180px;
+    }
+  }
+
+  strong, b {
+    color: $white;
+  }
+  p, div {
+    color: $gray-500;
+  }
+}

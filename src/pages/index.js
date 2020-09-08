@@ -20,7 +20,7 @@ const IndexPage = ({ intl }) => {
           <Row>
             <Col xs="12" md="10" lg="9" className="ml-auto mr-auto">
               <div className="lead-title"><FormattedMessage id="page.home.title" /></div>
-              <h1 className="display-2 mb-4 py-4" style={{minHeight: 240}}>
+              <h1 className="display-2 mb-4 py-4">
                 <strong><FormattedMessage id="page.home.headlinePre" /></strong>
                 {' '}
                 <span className="text-primary">

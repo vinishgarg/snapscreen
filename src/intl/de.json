@@ -118,7 +118,11 @@
   },
   "block.userJourney": {
     "emphasize": "Wir versuchen, die bestmögliche Benutzerfreundlichkeit zu erreichen!",
-    "text": "Hier ein einfaches Beispiel zur Nutzung von Snapscreen."
+    "text": "Hier ein einfaches Beispiel zur Nutzung von Snapscreen.",
+    "one": "Ben ist Journalist. Er verfolgt Nachrichten im Fernsehen. Er sieht oft etwas, das er in sozialen Medien teilen und kommentieren möchte.",
+    "two": "Er nimmt sein Handy, öffnet den Snapscreen und macht ein Foto vom TV Gerät. Er kann in der Zeit zurück scrollen, einen Clip erstellen, um den perfekten Moment festzuhalten, und einen Kommentar hinzufügen.",
+    "three": "Sein Clip in Hochauflösung ist in seinem Snapscreen-Profil gespeichert. So kann er es später jederzeit teilen. Er kann den Clip auch herunterladen und auf Instagram oder Youtube teilen.",
+    "four": "Mit der Einbettungsfunktion kann Ben den Clip auf seiner Website oder in seinem Blog integrieren. Mit Snapscreen kannst du ganz einfach erstellen, teilen und TV-Inhalte kommentieren - innerhalb von Sekunden!"
   },
   "block.benefits": {
     "emphasize": "Warum Snapscreen relevant ist",
