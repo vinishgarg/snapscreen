@@ -36,9 +36,9 @@ const Team = ({ intl }) => {
                   style={{width: 100, height: 100}}
                 />
                 <div className="media-body">
-                  <h5 className="mt-2 mb-0 text-dark">
+                  <div className="h5 mt-2 mb-0 text-dark">
                     <FormattedMessage id={"team." + person + ".name"} />
-                  </h5>
+                  </div>
                   <div><FormattedMessage id={"team." + person + ".role"} /></div>
                   <PopoverPerson name={person} />
                 </div>

@@ -1,0 +1,19 @@
+div#hs-eu-cookie-confirmation {
+  position: static !important;
+  font-family: $font-family-sans-serif !important;
+}
+
+div#hs-eu-cookie-confirmation div#hs-eu-cookie-confirmation-inner {
+  max-width: 1200px !important;
+  padding: 35px !important;
+}
+
+div#hs-eu-cookie-confirmation div#hs-eu-cookie-confirmation-inner p {
+  a, a:hover {
+    color: $link-color !important;
+  }
+}
+
+div#hs-eu-cookie-confirmation div#hs-eu-cookie-confirmation-inner a#hs-eu-confirmation-button {
+  font-weight: 600 !important;
+}

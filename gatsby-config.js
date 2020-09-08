@@ -16,6 +16,13 @@ module.exports = {
     `gatsby-transformer-remark`,
     `gatsby-plugin-sitemap`,
     {
+      resolve: `gatsby-plugin-hubspot`,
+      options: {
+          trackingCode: `7433878`,
+          respectDNT: true
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `assets`,
