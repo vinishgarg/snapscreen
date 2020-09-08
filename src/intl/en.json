@@ -1,6 +1,6 @@
 {
   "companyName": "Snapscreen",
-  "title": "Discover and share live TV and streaming.",
+  "title": "Share and discover what’s on TV!",
   "main.navigation": {
     "vision": "About us",
     "solution": "Solution",
@@ -39,28 +39,28 @@
   },
   "page.solution": {
     "title": "Our Solution",
-    "description": "",
+    "description": "✓ Enable viewers to participate ✚ Create clips ✚ Share moments ➨ Democratize TV!",
     "headline": "As a viewer I want to share and discover moments of TV.",
     "emphasize": "Have you ever tried sharing what's on TV?",
     "text": "With Snapscreen you simply take a photo (Snapshot) of a TV or streaming with your mobile. Snapscreen detects instantly the specific moment of the programm. You can rewind in time, create a clip and share this in broadcast quality."
   },
   "page.business": {
     "title": "For Broadcasters of linear TV and streaming",
-    "description": "",
+    "description": "✓ Monetize contents in a new way ✚ Direct backchannel ✚ New target groups ➨ Increase brand value!",
     "headline": "A new way to reach audience and create engagement.",
     "emphasize": "With Snapscreen broadcasters can embrace customer behavior and get a non-intrusive connection to their audience.",
     "text": "Savvy marketers can take advantage by engaging their audience in new and compelling ways. Analytics of usage and interests can be linked back to brand values and win over viewers loyality."
   },
   "page.faq": {
     "title": "Frequently asked questions.",
-    "description": "",
+    "description": "We hope to answer some questions which we hear over and over.",
     "headline": "There’s no such thing as a stupid question.",
     "emphasize": "Snapscreen is new and innovative.",
     "text": "It is in our interest to help you understand our idea and what we provide. We also would like to get your feedback and hear your thoughts. Feel free to ask us anything you like to know."
   },
   "page.contact": {
     "title": "Get in touch",
-    "description": "",
+    "description": "✓ Talk to us ✚ Individual proposals ✚ Free Demonstration ➨ Understand potentials!",
     "headline": "Your bright future starts with a simple conversation.",
     "emphasize": "Whether you are curious how Snapscreen works with you,",
     "text": "or you’d like to know your growth content potential, we’d love to chat with you.",
@@ -70,7 +70,7 @@
   },
   "page.try": {
     "title": "Demo to try Snapscreen",
-    "description": "",
+    "description": "✓ Try Snapscreen live ✚ With your mobile ✚ Quick and easy ➨ Be surprised!",
     "headline": "Try it now",
     "howTo1emphasize": "Take your Smartphone and scan the QR-code",
     "howTo1text": "or open our Demo in any mobile browser.",
@@ -80,7 +80,7 @@
   },
   "page.press": {
     "title": "Press clippings",
-    "description": "",
+    "description": "Find here some nice articles and press mentions about us.",
     "headline": "Press mentions and updates along our journey.",
     "emphasize": "We are proud that others have found our work as interesting and exciting as us!",
     "text": "Find here some nice articles and press mentions about us."

@@ -39,38 +39,38 @@
   },
   "page.solution": {
     "title": "Unsere Lösung",
-    "description": "",
+    "description": "✓ Lass Zuseher aktiv teilnehmen ✚ Kreiere Clips ✚ Teile Momente ➨ Demokratisiere TV!",
     "headline": "Als Zuseher möchte ich TV Momente teilen und entdecken.",
     "emphasize": "Hast du jemals versucht zu teilen, was im Fernsehen läuft?",
     "text": "Mit Snapscreen machst du einfach ein Foto (Snapshot) von einem TV oder Stream mit deinem Handy. Snapscreen erkennt sofort den spezifischen Moment des Programms. Du kannst zurückspulen, einen Clip erstellen und diesen in Sendequalität teilen."
   },
   "page.business": {
     "title": "Für Sender von linearem TV und Streaming",
-    "description": "",
+    "description": "✓ Monetarisiere Inhalte auf neue Art ✚ Direkter Kanal ✚ Neue Zielgruppen ➨ Markenwert steigern!",
     "headline": "Ein neuer Weg, um das Publikum zu erreichen und Engagement zu schaffen.",
     "emphasize": "Mit Snapscreen können TV und Streaming Sender auf ihr Publikum eingehen und eine unmittelbare Verbindung zu ihrem Publikum herstellen.",
     "text": "Versierte Vermarkter profitieren davon, indem sie ihr Publikum auf neue und überzeugende Weise einbeziehen. Nutzungs- und Interessenanalysen können mit Markenwerten verknüpft werden und die Loyalität der Zuschauer gewinnen."
   },
   "page.faq": {
     "title": "Häufig gestellte Fragen.",
-    "description": "",
+    "description": "Wir hoffen einige Fragen zu beantworten, die wir immer wieder hören.",
     "headline": "Es gibt keine dummen Fragen.",
     "emphasize": "Snapscreen ist neu und innovativ.",
     "text": "Es liegt in unserem Interesse, dir zu helfen, unsere Idee und unser Angebot zu verstehen. Wir möchten auch dein Feedback erhalten und Ideen hören. Frag uns gerne, was immer du wissen möchtest."
   },
   "page.contact": {
     "title": "Kontaktiere uns",
-    "description": "",
+    "description": "✓ Rede mit uns ✚ Individuelle Vorstellungen ✚ Gratis Demonstration ➨ Potentiale kennenlernen!",
     "headline": "Deine glänzende Zukunft beginnt mit einem einfachen Gespräch.",
-    "emphasize": "Whether you are curious how Snapscreen works with you,",
-    "text": "or you’d like to know your growth content potential, we’d love to chat with you.",
+    "emphasize": "Egal ob du neugierig bist, wie Snapscreen mit funktioniert,",
+    "text": "oder mehr über Wachstumschacen erfahren möchtest. Wir unterhalten uns gerne mit dir.",
     "cta": "Lass uns reden!",
     "sayThanksEmphasize": "Danke, für dein Interesse an Snapscreen.",
     "sayThanks": "Wir freuen uns von dir zu hören!"
   },
   "page.try": {
     "title": "Demo to try Snapscreen",
-    "description": "",
+    "description": "✓ Teste Snapscreen live ✚ Mit dem Handy ✚ Schnell und einfach ➨ Sei überrascht!",
     "headline": "Jetzt ausprobieren",
     "howTo1emphasize": "Nimm dein Smartphone und scanne den QR-Code",
     "howTo1text": "oder öffne unsere Demo in einem mobilen Browser.",
@@ -80,10 +80,10 @@
   },
   "page.press": {
     "title": "Presse Clippings",
-    "description": "",
+    "description": "Hier findest du einige Artikel und Presseberichte über uns.",
     "headline": "Erwähnungen und Updates in der Presse von unserer Reise.",
-    "emphasize": "We are proud that others have found our work as interesting and exciting as us!",
-    "text": "Find here some nice articles and press mentions about us."
+    "emphasize": "Wir sind stolz darauf, dass andere unsere Arbeit so interessant und aufregend fanden wie wir!",
+    "text": "Hier findest du einige Artikel und Presseberichte über uns."
   },
   "page.notfound": {
     "title": "Sorry, nicht gefunden",
