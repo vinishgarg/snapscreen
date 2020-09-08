@@ -1,13 +1,14 @@
 module.exports = {
   pathPrefix: `/snapscreen`,
   siteMetadata: {
-    siteUrl: `https://zeitvertrieb.github.io/snapscreen/`,
+    siteUrl: `https://new.snapscreen.com/`,
     title: `Snapscreen`,
     description: `We make TV and streaming discoverable and shareable.`,
     author: `@snapscreen`,
     twitter: `snapscreen`,
   },
   plugins: [
+    `gatsby-plugin-cname`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
     `gatsby-plugin-sharp`,
@@ -64,7 +65,7 @@ module.exports = {
       options: {
         name: `Snapscreen`,
         short_name: `Snapscreen`,
-        description: `We make TV and streaming discoverable and shareable.`,
+        description: `Share and discover what’s on TV.`,
         start_url: `/`,
         lang: `en`,
         background_color: `#EFEFEF`,
@@ -77,7 +78,7 @@ module.exports = {
             lang: `de`,
             name: `Snapscreen`,
             short_name: `Snapscreen`,
-            description: `Wir machen TV und streaming entdeckbar und teilbar.`,
+            description: `Teile und entdecke, was im TV läuft.`,
           },
         ],
       },
