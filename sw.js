@@ -27,26 +27,38 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-f2ce59200f2ae88f8697.js"
+    "url": "webpack-runtime-253ad0f0a79db2052f94.js"
   },
   {
     "url": "framework-02fcab78320a77685ff9.js"
   },
   {
-    "url": "app-0abe5b80147dd3c7f48a.js"
+    "url": "app-9585952e923d9c5da49c.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "165c88f56592e69c4dc7f0434c8c658c"
+    "revision": "b021917ec7e4470fcaba315a99ad7992"
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-5a1ee105f05b3144b807.js"
   },
   {
+    "url": "page-data/offline-plugin-app-shell-fallback/page-data.json",
+    "revision": "bc480acf375a4cc8ec391812c1ddadec"
+  },
+  {
+    "url": "page-data/sq/d/63159454.json",
+    "revision": "118540702d8bd1ffae71683bf8247568"
+  },
+  {
+    "url": "page-data/app-data.json",
+    "revision": "96a19de280c816858a93883d77262c38"
+  },
+  {
     "url": "polyfill-1c73eff1cb06dfe3be93.js"
   },
   {
-    "url": "styles.a123dcc48f6caa22b4c5.css"
+    "url": "styles.e5545b1a3bef50a922bf.css"
   },
   {
     "url": "styles-c2fe8482057191dca484.js"
@@ -63,14 +75,6 @@ self.__precacheManifest = [
   {
     "url": "page-data/vision/page-data.json",
     "revision": "631710527573ea7cc288f8e0b145227d"
-  },
-  {
-    "url": "page-data/sq/d/63159454.json",
-    "revision": "118540702d8bd1ffae71683bf8247568"
-  },
-  {
-    "url": "page-data/app-data.json",
-    "revision": "3430611b702864ab0b8956f1d90ced4e"
   },
   {
     "url": "bbb9d758df040dca054f7d984c21ef926603eeba-0674552d8fbfba1624e3.js"
@@ -119,7 +123,7 @@ self.__precacheManifest = [
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "3f69c18d6e9d4527ebfe449253fae1b4"
+    "revision": "42edf9e96cfe4e3a7e4061cea1d6c4ac"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
@@ -207,12 +211,12 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   lastNavigationRequest = event.request.url
 
   let { pathname } = new URL(event.request.url)
-  pathname = pathname.replace(new RegExp(`^`), ``)
+  pathname = pathname.replace(new RegExp(`^/snapscreen`), ``)
 
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/app-0abe5b80147dd3c7f48a.js`))) {
+  if (!resources || !(await caches.match(`/snapscreen/app-9585952e923d9c5da49c.js`))) {
     return await fetch(event.request)
   }
 
@@ -225,7 +229,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
     }
   }
 
-  const offlineShell = `/offline-plugin-app-shell-fallback/index.html`
+  const offlineShell = `/snapscreen/offline-plugin-app-shell-fallback/index.html`
   const offlineShellWithKey = workbox.precaching.getCacheKeyForURL(offlineShell)
   return await caches.match(offlineShellWithKey)
 })
