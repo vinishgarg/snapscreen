@@ -1,6 +1,6 @@
 import React from 'react'
 import { graphql } from 'gatsby'
-import { FormattedMessage, injectIntl } from 'gatsby-plugin-intl'
+import { FormattedMessage, injectIntl, Link } from 'gatsby-plugin-intl'
 import { Container, Row, Col, Jumbotron } from "react-bootstrap"
 import Layout from '@components/layout'
 import SEO from "@components/helper/seo"
@@ -36,7 +36,12 @@ function Privacy({ intl, data }) {
                   formId="72eb91b6-6663-489c-a81e-71e39b184572"
                   person="matthias"
                 />
+                <Link to="/contact" className="btn btn-link btn-lg mx-sm-2 mt-2 mt-sm-0">
+                  <FormattedMessage id="action.contact" />
+                </Link>
               </div>
+
+
             </Col>
           </Row>
         </Container>
