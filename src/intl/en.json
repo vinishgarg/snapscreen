@@ -73,10 +73,12 @@
     "description": "✓ Try Snapscreen live ✚ With your mobile ✚ Quick and easy ➨ Be surprised!",
     "headline": "Try it now",
     "howTo1emphasize": "Take your Smartphone and scan the QR-code",
-    "howTo1text": "or open our Demo in any mobile browser.",
-    "howTo2emphasize": "From there – take a Snap of the NBA stream",
+    "howTo1text": "to open our Demo app in your mobile browser.",
+    "howTo2emphasize": "From there – take a photo of the NBA stream",
     "howTo2text": "and explore the magic.",
-    "instruction": "Scan QR code with your smartphone. Allow camera access and Snap!"
+    "instruction": "Scan QR code with your smartphone. Allow camera access and Snap!",
+    "endline": "Awesome, right?",
+    "engagement": "Please, share your Snap on social media or a private message."
   },
   "page.press": {
     "title": "Press clippings",

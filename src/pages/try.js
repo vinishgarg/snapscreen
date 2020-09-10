@@ -46,41 +46,32 @@ const Try = ({ intl }) => {
         <Online>
           <Container>
             <Row>
-              <Col xs="12" md="10" lg="5" className="ml-auto mr-auto">
-                <h1 className="display-2 my-4 py-4" style={{minHeight: 0}}>
-                  <strong><FormattedMessage id={"page.try.headline"} /></strong>
+              <Col>
+                <h1 className="display-2 my-4 py-4 text-center" style={{minHeight: 0}}>
+                  <strong><FormattedMessage id={"page.try.headline"} />!</strong>
                 </h1>
-                <ol className="lead">
+              </Col>
+            </Row>
+            <Row>
+              <Col xs="12" md="10" lg="5" className="ml-auto mr-auto">
+                <ol className="lead mb-4">
                   <li>
                     <p>
-                      <strong><FormattedMessage id={"page.try.howTo1emphasize"} /></strong>
-                      {" "}
-                      <FormattedMessage id={"page.try.howTo1text"} />
-                      {" "}
-                      <a href={demoURL} target="_blank" rel="noopener noreferrer">
-                        {demoURL}
-                      </a>
+                      <strong><FormattedMessage id={"page.try.howTo1emphasize"} /></strong>{" "}
+                      <FormattedMessage id={"page.try.howTo1text"} />{" "}
+                      <a href={demoURL} target="_blank" rel="noopener noreferrer">{demoURL}</a>
                     </p>
                   </li>
                   <li>
                     <p>
-                      <strong><FormattedMessage id={"page.try.howTo2emphasize"} /></strong>
-                      {" "}
-                      <FormattedMessage id={"page.try.howTo2text"} />
-                      {" "}
-                      <span role="img" aria-label="smile">😉</span></p>
+                      <strong><FormattedMessage id={"page.try.howTo2emphasize"} /></strong>{" "}
+                      <FormattedMessage id={"page.try.howTo2text"} />{" "}
+                      <span role="img" aria-label="smile">😉</span>
+                    </p>
                   </li>
                 </ol>
-                <div className="pt-4 text-center text-sm-left">
-                  <Link to="/contact" className="btn btn-primary btn-lg mt-2 mt-sm-0">
-                    <FormattedMessage id="action.contact" />
-                  </Link>
-                  <Link to="/solution" className="btn btn-link btn-lg mx-sm-2 mt-2 mt-sm-0">
-                    <FormattedMessage id="action.solution" />
-                  </Link>
-                </div>
               </Col>
-              <Col xs="12" md="10" lg="6" className="mx-auto mt-3 pt-3">
+              <Col xs="12" md="10" lg="7" className="mx-auto py-3">
                 <Row className="align-items-center mb-4">
                   <Col xs="4" sm="3" md="3" className="ml-auto">
                       <QRCode
@@ -93,12 +84,30 @@ const Try = ({ intl }) => {
                     <ion-icon size="large" name="phone-portrait-outline" style={{color: "#ffffff", display: "inline-flex"}} />
                   </Col>
                   <Col xs="6" sm="6" md="7" className="mr-auto">
-                    <p className="mt-3">
+                    <p className="mt-4">
                       <FormattedMessage id={"page.try.instruction"} />
                     </p>
                   </Col>
                 </Row>
+              </Col>
+            </Row>
+            <Row className="">
+              <Col md="10" lg="8" className="mx-auto my-4 py-4">
                 <VideoStream id="Aw3xFO1wdJ4" autoplay="1" mute="1" />
+              </Col>
+            </Row>
+            <Row>
+              <Col md="10" lg="8" className="mx-auto mt-4">
+                <h2 className="my-4 text-center"><strong><FormattedMessage id={"page.try.endline"} /></strong></h2>
+                <p className="text-center my-4"><strong><FormattedMessage id={"page.try.engagement"} /></strong></p>
+                <div className="pt-4 text-center">
+                  <Link to="/contact" className="btn btn-primary btn-lg mt-2 mt-sm-0">
+                    <FormattedMessage id="action.contact" />
+                  </Link>
+                  <Link to="/solution" className="btn btn-link btn-lg mx-sm-2 mt-2 mt-sm-0">
+                    <FormattedMessage id="action.solution" />
+                  </Link>
+                </div>
               </Col>
             </Row>
           </Container>
