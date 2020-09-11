@@ -1,7 +1,8 @@
 import React from 'react'
 import { injectIntl } from 'gatsby-plugin-intl'
-import { Container, Row, Col, Image } from 'react-bootstrap'
-import MultiPlayer from '@components/element/audioPlayer'
+import { Container, Row, Col, Card, Image } from 'react-bootstrap'
+import AudioPlayer, { RHAP_UI } from 'react-h5-audio-player'
+import 'react-h5-audio-player/lib/styles.css'
 
 import annabelImg from '@assets/testimonials/annabel.jpg'
 import annabelAudio from '@assets/testimonials/annabel.m4a'
@@ -22,7 +23,7 @@ const Testimonials = () => {
     },
     {
       name: "Adam Milgrom",
-      role: "Strategist and Venture Partner at Giant Leap Fund",
+      role: "Venture Partner at Giant Leap Fund",
       audioSrc: adamAudio,
       imgSrc: adamImg,
       imgAlt: "Adam Milgrom"
@@ -37,38 +38,51 @@ const Testimonials = () => {
   ]
 
   return (
-    <section>
       <Container>
         <Row className="list-unstyled">
           {testimonials.map(function(item, i) {
             return (
-              <Col key={i} xs="12" md="6" lg="4" className="my-4 media">
-                <div style={{position: 'relative'}}>
-                  <Image
-                    fluid
-                    roundedCircle
-                    src={item.imgSrc}
-                    alt={item.imgAlt}
-                    className="mr-4 bg-light"
-                    style={{width: 100, height: 100}}
+              <Col key={i} xs="12" md="6" lg="4" className="my-4">
+                <Card>
+                  <Card.Body>
+                    <div className="media">
+                      <Image
+                        fluid
+                        roundedCircle
+                        src={item.imgSrc}
+                        alt={item.imgAlt}
+                        className="mr-4 bg-light"
+                        style={{width: 100, height: 100}}
+                      />
+                      <div className="media-body">
+                        <div className="h5 mt-2 mb-0 text-dark">
+                          {item.name}
+                        </div>
+                        <div>{item.role}</div>
+                      </div>
+                    </div>
+                  </Card.Body>
+                  <AudioPlayer
+                    layout="horizontal-reverse"
+                    autoPlay={false}
+                    showJumpControls={false}
+                    showDownloadProgress={false}
+                    showFilledProgress={false}
+                    src={item.audioSrc}
+                    customAdditionalControls={[]}
+                    customVolumeControls={[]}
+                    customProgressBarSection={
+                      [
+                        RHAP_UI.VOLUME
+                      ]
+                    }
                   />
-                  <div style={{position: 'absolute', right: 8, top: 0}}>
-                    <MultiPlayer imgSrc={item.imgSrc} urls={[ item.audioSrc ]} />
-                  </div>
-                </div>
-                <div className="media-body">
-                  <div className="h5 mt-2 mb-0 text-dark">
-                    {item.name}
-                  </div>
-                  <div>{item.role}</div>
-                </div>
+                </Card>
               </Col>
             )
           })}
-
         </Row>
       </Container>
-    </section>
   )
 }
 
