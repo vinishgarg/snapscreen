@@ -32,3 +32,14 @@
 .btn-light {
   background-color: $white;
 }
+
+.btn-play {
+  padding: 0;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: $primary;
+}

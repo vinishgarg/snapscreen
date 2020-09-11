@@ -5,6 +5,7 @@ import ReactTypingEffect from '@components/vendor/react-typing-effect/src/lib/'
 import Layout from '@components/layout'
 import SEO from '@components/helper/seo'
 import OurInnovation from '@components/block/ourInnovation'
+import Blockquote from '@components/element/blockquote'
 import SupportedBy from '@components/block/supportedBy'
 
 const IndexPage = ({ intl }) => {
@@ -60,6 +61,22 @@ const IndexPage = ({ intl }) => {
         </Container>
       </Jumbotron>
       <OurInnovation />
+      <section className="">
+        <Container>
+          <Row>
+            <Col xs="12" md="10" lg="9" className="mx-auto">
+              <Blockquote
+                role="Managing Director SportsTech"
+                medium="Techstars"
+                name="Todd Deacon"
+                img="https://pbs.twimg.com/profile_images/999959454991962112/xiZF17uw_400x400.jpg"
+              >
+                <FormattedMessage id="blockquote.page.home" />
+              </Blockquote>
+            </Col>
+          </Row>
+        </Container>
+      </section>
       <SupportedBy />
     </Layout>
   )

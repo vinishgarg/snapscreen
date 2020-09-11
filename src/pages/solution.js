@@ -4,9 +4,9 @@ import { Container, Row, Col, Jumbotron } from 'react-bootstrap'
 import Layout from '@components/layout'
 import SEO from '@components/helper/seo'
 import GiveFeedback from '@components/block/giveFeedback'
-import Blockquote from '@components/element/blockquote'
 import UserJourney from '@components/block/userJourney'
 import SupportedBy from '@components/block/supportedBy'
+import Testimonials from '@components/block/testimonials'
 
 const solutionPage = ({ intl }) => {
   return (
@@ -42,20 +42,17 @@ const solutionPage = ({ intl }) => {
         </Container>
       </Jumbotron>
       <UserJourney />
-      <section className="">
+      <section>
         <Container>
           <Row>
-            <Col xs="12" md="10" lg="9" className="mx-auto">
-              <Blockquote
-                role="Managing Director SportsTech"
-                medium="Techstars"
-                name="Todd Deacon"
-                img="https://pbs.twimg.com/profile_images/999959454991962112/xiZF17uw_400x400.jpg"
-              >
-                <FormattedMessage id="blockquote.page.home" />
-              </Blockquote>
+            <Col xs="12" sm="10" md="8" lg="8" className="mr-auto mb-4">
+              <h2 className="h3">
+                <strong><FormattedMessage id={"block.testimonials.emphasize"} /></strong>{' '}
+                <FormattedMessage id={"block.testimonials.text"} />
+              </h2>
             </Col>
           </Row>
+          <Testimonials />
         </Container>
       </section>
       <GiveFeedback />

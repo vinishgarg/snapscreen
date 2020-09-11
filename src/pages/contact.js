@@ -49,7 +49,7 @@ const Contact = ({ intl }) => {
           </Row>
         </Container>
       </Jumbotron>
-      <section id="sales">
+      <section>
         <Container>
           <Row>
             <Col xs="12" sm="10" md="8" lg="8" className="mr-auto mb-4">
@@ -61,86 +61,6 @@ const Contact = ({ intl }) => {
           </Row>
         </Container>
       </section>
-      {/*
-      <section className="bg-light" id="sales">
-        <Container>
-          <Row>
-            <Col xs="12" lg="6" className="mr-auto mb-4">
-              <h2 className="h3"><strong>Our Sales Professionals</strong> are happy to answer all your questions.</h2>
-            </Col>
-          </Row>
-          <Row className="list-unstyled">
-            <Col xs="12" lg="12" className="mx-auto my-4">
-              <h3 className="lead mb-4"><strong>Australia</strong></h3>
-              <Row>
-                <Col xs="12" md="6" lg="4" className="mb-4 media">
-                  <Image fluid src="https://cdn2.hubspot.net/hubfs/7433878/team/richard.png" alt="Richard Armstrong" className="mr-4" />
-                  <div className="media-body">
-                    <h5 className="mt-2 mb-0 text-dark">Richard Armstrong</h5>
-                    <div><small>Managing Partner, Australia <span role="img" aria-label="Australia">🇦🇺</span></small></div>
-                    <small><a href="mailto:richard.armstrong@snapscreen.com" rel="nofollow" className="">richard.armstrong@snapscreen.com</a></small>
-                  </div>
-                </Col>
-                <Col xs="12" md="6" lg="4" className="mb-4 media">
-                  <Image fluid src="https://cdn2.hubspot.net/hubfs/7433878/team/robert.png" alt="Robert Mittag" className="mr-4" />
-                  <div className="media-body">
-                    <h5 className="mt-2 mb-0 text-dark">Robert Mittag</h5>
-                    <div><small>Managing Partner, Australia <span role="img" aria-label="Australia">🇦🇺</span></small></div>
-                    <small><a href="mailto:robert.mittag@snapscreen.com" rel="nofollow" className="">robert.mittag@snapscreen.com</a></small>
-                  </div>
-                </Col>
-              </Row>
-            </Col>
-          </Row>
-          <Row className="list-unstyled">
-            <Col xs="12" lg="12" className="mx-auto my-4">
-              <h3 className="lead mb-4"><strong>North America</strong></h3>
-              <Row>
-                <Col xs="12" md="6" lg="4" className="mb-4 media">
-                  <Image fluid src="https://cdn2.hubspot.net/hubfs/7433878/team/ken.png" alt="Ken Adelson" className="mr-4" />
-                  <div className="media-body">
-                    <h5 className="mt-2 mb-0 text-dark">Ken Adelson</h5>
-                    <div><small>Managing Partner, North America <span role="img" aria-label="USA">🇺🇸</span></small></div>
-                    <small><a href="mailto:stefano.dipersio@snapscreen.com" rel="nofollow" className="">stefano.dipersio@snapscreen.com</a></small>
-                  </div>
-                </Col>
-                <Col xs="12" md="6" lg="4" className="mb-4 media">
-                  <Image fluid src="https://cdn2.hubspot.net/hubfs/7433878/team/terry.png" alt="Terry Lyons" className="mr-4" />
-                  <div className="media-body">
-                    <h5 className="mt-2 mb-0 text-dark">Terry Lyons</h5>
-                    <div><small>Managing Partner, North America <span role="img" aria-label="USA">🇺🇸</span></small></div>
-                    <small><a href="mailto:terry.lyons@snapscreen.com" rel="nofollow" className="">terry.lyons@snapscreen.com</a></small>
-                  </div>
-                </Col>
-              </Row>
-            </Col>
-          </Row>
-          <Row className="list-unstyled">
-            <Col xs="12" lg="12" className="mx-auto my-4">
-              <h3 className="lead mb-4"><strong>Europe</strong></h3>
-              <Row>
-                <Col xs="12" md="6" lg="4" className="mb-4 media">
-                  <Image fluid src="https://cdn2.hubspot.net/hubfs/7433878/team/stefano.png" alt="Stefano Di Persio" className="mr-4" />
-                  <div className="media-body">
-                    <h5 className="mt-2 mb-0 text-dark">Stefano Di Persio</h5>
-                    <div><small>Managing Partner, Italy <span role="img" aria-label="Italy">🇮🇹</span></small></div>
-                    <small><a href="mailto:stefano.dipersio@snapscreen.com" rel="nofollow" className="">stefano.dipersio@snapscreen.com</a></small>
-                  </div>
-                </Col>
-                <Col xs="12" md="6" lg="4" className="mb-4 media">
-                  <Image fluid src="https://cdn2.hubspot.net/hubfs/7433878/team/miguel.png" alt="Miguel Gomez" className="mr-4" />
-                  <div className="media-body">
-                    <h5 className="mt-2 mb-0 text-dark">Miguel Gomez</h5>
-                    <div><small>Managing Partner, Spain <span role="img" aria-label="Spain">🇪🇸</span></small></div>
-                    <small><a href="mailto:miguel.gomez@snapscreen.com" rel="nofollow" className="">miguel.gomez@snapscreen.com</a></small>
-                  </div>
-                </Col>
-              </Row>
-            </Col>
-          </Row>
-        </Container>
-      </section>
-      */}
     </Layout>
   )
 }

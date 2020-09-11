@@ -12718,6 +12718,11 @@ react-lifecycles-compat@^3.0.4:
   resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
   integrity sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==
 
+react-modular-audio-player@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/react-modular-audio-player/-/react-modular-audio-player-1.2.0.tgz#4829b7bf4d63a3c74c46e8f1e343ba75bdf78579"
+  integrity sha512-wE1yVgUhVm0td08EoZNzLeBZ/SCpQFznfHa6UYdHIezyFlqsaKgAjRkBa8R43pLerUS/Ud0nkioBa7j++z1FwA==
+
 react-overlays@^3.0.1:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/react-overlays/-/react-overlays-3.2.0.tgz#ed8335adb0871e701b0fc8396c44dfd2467e7a55"

@@ -4,7 +4,7 @@ import { Card } from 'react-bootstrap'
 const Benefit = ({ as, iconName, emphasize, text, small }) => (
   <Card as={as}>
     <Card.Header>
-      <ion-icon name={iconName} size="large"></ion-icon>
+      <ion-icon name={iconName} size="large" />
     </Card.Header>
     <Card.Body>
       <h3 className="lead">
