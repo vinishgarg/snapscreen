@@ -8,6 +8,8 @@ import OurInnovation from '@components/block/ourInnovation'
 import Blockquote from '@components/element/blockquote'
 import SupportedBy from '@components/block/supportedBy'
 
+import ogImg from '@assets/image/og_home.jpg'
+
 const IndexPage = ({ intl }) => {
   return (
     <Layout>
@@ -15,6 +17,7 @@ const IndexPage = ({ intl }) => {
         lang={intl.locale}
         title={intl.formatMessage({ id: "title" })}
         keywords={[`innovation`, `television`, `streaming`, `marketing`]}
+        ogImage={ogImg}
       />
       <Jumbotron>
         <Container>

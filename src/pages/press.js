@@ -7,6 +7,8 @@ import SEO from '@components/helper/seo'
 import PostLink from "@components/element/postLink"
 import HubSpot from '@components/block/hubspotForm'
 
+import ogImg from '@assets/image/og_home.jpg'
+
 const Press = ({
   intl,
   data: {
@@ -25,6 +27,7 @@ const Press = ({
         lang="en"
         title={intl.formatMessage({ id: "page.press.title" })}
         description={intl.formatMessage({ id: "page.press.description" })}
+        ogImage={ogImg}
       />
       <Jumbotron>
         <Container>

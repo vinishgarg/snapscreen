@@ -8,6 +8,8 @@ import UserJourney from '@components/block/userJourney'
 import SupportedBy from '@components/block/supportedBy'
 import Testimonials from '@components/block/testimonials'
 
+import ogImg from '@assets/image/og_solution.jpg'
+
 const solutionPage = ({ intl }) => {
   return (
     <Layout>
@@ -15,6 +17,7 @@ const solutionPage = ({ intl }) => {
         lang={intl.locale}
         title={intl.formatMessage({ id: "page.solution.title" })}
         description={intl.formatMessage({ id: "page.solution.description" })}
+        ogImage={ogImg}
       />
       <Jumbotron>
         <Container>

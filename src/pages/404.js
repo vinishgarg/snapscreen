@@ -12,6 +12,7 @@ const ErrorPage = ({ intl }) => {
           lang={intl.locale}
           title={`404: ${intl.formatMessage({ id: "page.notfound.title" })}`}
           description={intl.formatMessage({ id: "page.notfound.description" })}
+          ogImage={ErrorImg}
         />
         <Jumbotron>
           <Container>

@@ -6,6 +6,8 @@ import SEO from "@components/helper/seo"
 import PopoverPerson from '@components/element/popoverPerson'
 import HubspotMeeting from '@components/block/hubspotMeeting'
 
+import ogImg from '@assets/image/og_contact.jpg'
+
 const Contact = ({ intl }) => {
   return (
     <Layout>
@@ -13,6 +15,7 @@ const Contact = ({ intl }) => {
         lang={intl.locale}
         title={intl.formatMessage({ id: "page.contact.title" })}
         description={intl.formatMessage({ id: "page.contact.description" })}
+        ogImage={ogImg}
       />
       <Jumbotron>
         <Container>

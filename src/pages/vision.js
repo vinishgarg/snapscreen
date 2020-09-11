@@ -8,6 +8,8 @@ import Blockquote from '@components/element/blockquote'
 import Team from '@components/block/team'
 import SupportedBy from '@components/block/supportedBy'
 
+import ogImg from '@assets/image/og_vision.jpg'
+
 const visionPage = ({ intl }) => {
   return (
     <Layout>
@@ -15,6 +17,7 @@ const visionPage = ({ intl }) => {
         lang={intl.locale}
         title={intl.formatMessage({ id: "page.vision.title" })}
         description={intl.formatMessage({ id: "page.vision.description" })}
+        ogImage={ogImg}
       />
       <Jumbotron>
         <Container>

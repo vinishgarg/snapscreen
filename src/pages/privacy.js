@@ -6,6 +6,8 @@ import Layout from '@components/layout'
 import SEO from "@components/helper/seo"
 import HubspotRequestForm from '@components/block/hubspotForm'
 
+import ogImg from '@assets/image/og_home.jpg'
+
 function Privacy({ intl, data }) {
   const { markdownRemark } = data // data.markdownRemark holds your post data
   const { frontmatter, html } = markdownRemark
@@ -15,6 +17,7 @@ function Privacy({ intl, data }) {
         lang={intl.locale}
         title={intl.formatMessage({ id: "page.privacy.title" })}
         description={intl.formatMessage({ id: "page.privacy.description" })}
+        ogImage={ogImg}
       />
       <Jumbotron className="blog-post">
         <Container>

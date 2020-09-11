@@ -4,8 +4,10 @@ import { FormattedMessage, injectIntl, Link } from 'gatsby-plugin-intl'
 import { Container, Row, Col, Jumbotron } from "react-bootstrap"
 import Layout from '@components/layout'
 import SEO from '@components/helper/seo'
-import QuestionLink from "@components/element/questionLink"
+import QuestionLink from '@components/element/questionLink'
 import HubSpot from '@components/block/hubspotForm'
+
+import ogImg from '@assets/image/og_home.jpg'
 
 const About = ({
   intl,
@@ -23,6 +25,7 @@ const About = ({
         lang={intl.locale}
         title={intl.formatMessage({ id: "page.faq.title" })}
         description={intl.formatMessage({ id: "page.faq.description" })}
+        ogImage={ogImg}
       />
       <Jumbotron>
         <Container>
