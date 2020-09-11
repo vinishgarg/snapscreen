@@ -19,6 +19,7 @@ function SEO({ description, ogImage, lang, meta, keywords, title }) {
             title
             description
             author
+            twitter
           }
         }
       }
@@ -55,10 +56,6 @@ function SEO({ description, ogImage, lang, meta, keywords, title }) {
           content: ogImage,
         },
         {
-          property: `twitter:image`,
-          content: ogImage,
-        },
-        {
           property: `og:type`,
           content: `website`,
         },
@@ -77,6 +74,10 @@ function SEO({ description, ogImage, lang, meta, keywords, title }) {
         {
           name: `twitter:description`,
           content: metaDescription,
+        },
+        {
+          property: `twitter:image`,
+          content: ogImage,
         },
       ]
         .concat(

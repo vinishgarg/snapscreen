@@ -6,6 +6,7 @@ module.exports = {
     description: `We make TV and streaming discoverable and shareable.`,
     author: `@snapscreen`,
     twitter: `Snapscreen_com`,
+    ogImage: `${__dirname}/static/og_default.jpg`,
   },
   plugins: [
     `gatsby-plugin-cname`,
