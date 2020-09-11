@@ -17,6 +17,7 @@ function Terms({ intl, data }) {
         lang={intl.locale}
         title={intl.formatMessage({ id: "page.terms.title" })}
         description={intl.formatMessage({ id: "page.terms.description" })}
+        keywords={[`legal`, `terms`, `use`, `govern`, `access`, `account`, `license`]}
         ogImage={ogImg}
       />
       <Jumbotron className="blog-post">

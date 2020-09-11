@@ -19,6 +19,7 @@ const businessPage = ({ intl }) => {
         lang={intl.locale}
         title={intl.formatMessage({ id: "page.business.title" })}
         description={intl.formatMessage({ id: "page.business.description" })}
+        keywords={[`engagement`, `viewers`, `reach`, `audience`, `community`, `deeplink`]}
         ogImage={ogImg}
       />
       <Jumbotron>

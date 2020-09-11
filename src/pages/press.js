@@ -27,6 +27,7 @@ const Press = ({
         lang="en"
         title={intl.formatMessage({ id: "page.press.title" })}
         description={intl.formatMessage({ id: "page.press.description" })}
+        keywords={[`articles`, `clippings`, `mentions`, `coverage`, `success`]}
         ogImage={ogImg}
       />
       <Jumbotron>

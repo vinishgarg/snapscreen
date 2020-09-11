@@ -17,6 +17,7 @@ function Privacy({ intl, data }) {
         lang={intl.locale}
         title={intl.formatMessage({ id: "page.privacy.title" })}
         description={intl.formatMessage({ id: "page.privacy.description" })}
+        keywords={[`privacy`, `data`, `personal`, `cookies`, `purpose`, `profile`, `contact`]}
         ogImage={ogImg}
       />
       <Jumbotron className="blog-post">
@@ -43,8 +44,6 @@ function Privacy({ intl, data }) {
                   <FormattedMessage id="action.contact" />
                 </Link>
               </div>
-
-
             </Col>
           </Row>
         </Container>

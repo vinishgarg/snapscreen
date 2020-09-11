@@ -17,6 +17,7 @@ const solutionPage = ({ intl }) => {
         lang={intl.locale}
         title={intl.formatMessage({ id: "page.solution.title" })}
         description={intl.formatMessage({ id: "page.solution.description" })}
+        keywords={[`creation`, `clip`, `ux`, `fun`, `discovery`, `TV`]}
         ogImage={ogImg}
       />
       <Jumbotron>

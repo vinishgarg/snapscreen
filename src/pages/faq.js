@@ -25,6 +25,7 @@ const About = ({
         lang={intl.locale}
         title={intl.formatMessage({ id: "page.faq.title" })}
         description={intl.formatMessage({ id: "page.faq.description" })}
+        keywords={[`help`, `faq`, `information`, `questions`]}
         ogImage={ogImg}
       />
       <Jumbotron>

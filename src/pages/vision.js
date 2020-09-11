@@ -17,6 +17,7 @@ const visionPage = ({ intl }) => {
         lang={intl.locale}
         title={intl.formatMessage({ id: "page.vision.title" })}
         description={intl.formatMessage({ id: "page.vision.description" })}
+        keywords={[`user need`, `opportunity`, `democratize`, `interact`, `desire`]}
         ogImage={ogImg}
       />
       <Jumbotron>

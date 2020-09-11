@@ -1,3 +1,7 @@
+#hubspot-messages-iframe-container {
+  z-index: 900 !important;
+}
+
 div#hs-eu-cookie-confirmation {
   position: static !important;
   font-family: $font-family-sans-serif !important;

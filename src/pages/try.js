@@ -19,6 +19,7 @@ const Try = ({ intl }) => {
         lang={intl.locale}
         title={intl.formatMessage({ id: "page.try.title" })}
         description={intl.formatMessage({ id: "page.try.description" })}
+        keywords={[`snap`, `demo`, `demonstration`, `mobile`, `magic`, `clip`, `share`]}
         ogImage={ogImg}
       />
       <Jumbotron>
