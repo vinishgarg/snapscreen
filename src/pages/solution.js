@@ -52,8 +52,8 @@ const solutionPage = ({ intl }) => {
               </h2>
             </Col>
           </Row>
-          <Testimonials />
         </Container>
+        <Testimonials />
       </section>
       <GiveFeedback />
       <SupportedBy />
