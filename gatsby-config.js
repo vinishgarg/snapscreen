@@ -5,7 +5,7 @@ module.exports = {
     title: `Snapscreen`,
     description: `We make TV and streaming discoverable and shareable.`,
     author: `@snapscreen`,
-    twitter: `snapscreen`,
+    twitter: `Snapscreen_com`,
   },
   plugins: [
     `gatsby-plugin-cname`,

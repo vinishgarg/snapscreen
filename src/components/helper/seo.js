@@ -55,7 +55,7 @@ function SEO({ description, ogImage, lang, meta, keywords, title }) {
           content: ogImage,
         },
         {
-          property: `twitter:image:src`,
+          property: `twitter:image`,
           content: ogImage,
         },
         {
@@ -63,12 +63,12 @@ function SEO({ description, ogImage, lang, meta, keywords, title }) {
           content: `website`,
         },
         {
-          name: `twitter:card`,
-          content: `summary_large_image`,
+          name: `twitter:site`,
+          content: site.siteMetadata.twitter,
         },
         {
-          name: `twitter:creator`,
-          content: site.siteMetadata.author,
+          name: `twitter:card`,
+          content: `summary_large_image`,
         },
         {
           name: `twitter:title`,
