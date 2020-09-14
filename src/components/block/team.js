@@ -1,7 +1,7 @@
 import React from 'react'
 import { FormattedMessage, injectIntl } from 'gatsby-plugin-intl'
 import { Container, Row, Col, Image } from "react-bootstrap"
-import PopoverPerson from '@components/element/popoverPerson'
+import PopoverPerson from '../element/popoverPerson'
 
 const Team = ({ intl }) => {
 

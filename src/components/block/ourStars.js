@@ -1,8 +1,8 @@
 import React from 'react'
 import { Container, Row, Col, Image } from 'react-bootstrap'
-import HubspotMeeting from '@components/block/hubspotMeeting'
+import HubspotMeeting from './hubspotMeeting'
 
-import FOXLogo from '@assets/clients/FOX_logo.png'
+import FOXLogo from '../../assets/clients/FOX_logo.png'
 
 const OurStars = () => {
   return (

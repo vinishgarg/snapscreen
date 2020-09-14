@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link, FormattedMessage, injectIntl } from 'gatsby-plugin-intl'
 import { Container, Navbar, Nav } from 'react-bootstrap'
-import SnapscreenLogo from '@components/element/snapscreenLogo'
+import SnapscreenLogo from '../element/snapscreenLogo'
 
 const CustomNavbar = ({ intl }) => {
 

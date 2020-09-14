@@ -65,14 +65,14 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-plugin-module-resolver',
+      resolve: `gatsby-plugin-intl`,
       options: {
-        root: 'src',
-        aliases: {
-          '@components': './components', // <- will become ./src/components
-          '@assets': './assets', // <- will become ./src/assets
-        }
-      }
+        path: `${__dirname}/src/intl`,
+        languages: [`en`, `de`],
+        defaultLanguage: `en`,
+        redirect: false,
+        redirectComponent: require.resolve(`./src/components/helper/redirect.js`),
+      },
     },
     {
       resolve: `gatsby-plugin-manifest`,
@@ -102,16 +102,6 @@ module.exports = {
       options: {
         precachePages: [`/vision`, `/solution`, `/business`, `/contact`, `/try`, `/privacy`, `/terms`],
       },
-    },
-    {
-      resolve: `gatsby-plugin-intl`,
-      options: {
-        path: `${__dirname}/src/intl`,
-        languages: [`en`, `de`],
-        defaultLanguage: `en`,
-        redirect: false,
-        redirectComponent: require.resolve(`./src/components/helper/redirect.js`),
-      },
-    },
+    }
   ],
 }

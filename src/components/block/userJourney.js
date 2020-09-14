@@ -2,10 +2,10 @@ import React from 'react'
 import { FormattedMessage, injectIntl } from 'gatsby-plugin-intl'
 import { Container, Row, Col, Image } from 'react-bootstrap'
 
-import UserJourneyImg01 from '@assets/sketch/support-notes-colour.svg'
-import UserJourneyImg02 from '@assets/sketch/holding-phone-colour.svg'
-import UserJourneyImg03 from '@assets/sketch/mobile-article-colour.svg'
-import UserJourneyImg04 from '@assets/sketch/content-man-colour.svg'
+import UserJourneyImg01 from '../../assets/sketch/support-notes-colour.svg'
+import UserJourneyImg02 from '../../assets/sketch/holding-phone-colour.svg'
+import UserJourneyImg03 from '../../assets/sketch/mobile-article-colour.svg'
+import UserJourneyImg04 from '../../assets/sketch/content-man-colour.svg'
 
 const UserJourney = () => {
   return (

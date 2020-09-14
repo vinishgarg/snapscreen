@@ -3,11 +3,11 @@ import { FormattedMessage, injectIntl, Link } from 'gatsby-plugin-intl'
 import { Container, Row, Col, Jumbotron } from 'react-bootstrap'
 import { Offline, Online } from 'react-detect-offline'
 import QRCode from 'qrcode.react'
-import SEO from "@components/helper/seo"
-import Layout from '@components/layout'
-import VideoStream from '@components/element/videoStream'
+import SEO from "../components/helper/seo"
+import Layout from '../components/layout'
+import VideoStream from '../components/element/videoStream'
 
-import ogImg from '@assets/image/og_home.jpg'
+import ogImg from '../assets/image/og_home.jpg'
 
 const Try = ({ intl }) => {
   // SET THE DEMO URL,

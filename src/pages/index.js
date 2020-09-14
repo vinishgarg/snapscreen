@@ -1,14 +1,14 @@
 import React from 'react'
 import { FormattedMessage, injectIntl, Link } from 'gatsby-plugin-intl'
 import { Container, Row, Col, Jumbotron } from 'react-bootstrap'
-import ReactTypingEffect from '@components/vendor/react-typing-effect/src/lib/'
-import Layout from '@components/layout'
-import SEO from '@components/helper/seo'
-import OurInnovation from '@components/block/ourInnovation'
-import Blockquote from '@components/element/blockquote'
-import SupportedBy from '@components/block/supportedBy'
+import ReactTypingEffect from '../components/vendor/react-typing-effect/src/lib/'
+import Layout from '../components/layout'
+import SEO from '../components/helper/seo'
+import OurInnovation from '../components/block/ourInnovation'
+import Blockquote from '../components/element/blockquote'
+import SupportedBy from '../components/block/supportedBy'
 
-import ogImg from '@assets/image/og_home.jpg'
+import ogImg from '../assets/image/og_home.jpg'
 
 const IndexPage = ({ intl }) => {
   return (

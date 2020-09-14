@@ -2,7 +2,7 @@ import React from 'react'
 import { ResponsiveEmbed, Image } from 'react-bootstrap'
 import { Offline, Online } from 'react-detect-offline'
 
-import TelevisionImg from '@assets/television.png'
+import TelevisionImg from '../../assets/television.png'
 
 const VideoStream = ({ id, autoplay, mute }) => {
 

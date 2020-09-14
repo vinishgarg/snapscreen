@@ -1,7 +1,7 @@
 import React from 'react'
 import { Nav, Container, Row, Col } from 'react-bootstrap'
 import { Link, FormattedMessage, injectIntl } from 'gatsby-plugin-intl'
-import LanguageSelector from '@components/element/LanguageSelector'
+import LanguageSelector from '../element/LanguageSelector'
 
 const Footer = ({ intl }) => {
 

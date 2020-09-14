@@ -4,12 +4,12 @@ import { Container, Row, Col, Card, Image } from 'react-bootstrap'
 import AudioPlayer, { RHAP_UI } from 'react-h5-audio-player'
 import 'react-h5-audio-player/lib/styles.css'
 
-import annabelImg from '@assets/testimonials/annabel.jpg'
-import annabelAudio from '@assets/testimonials/annabel.m4a'
-import adamImg from '@assets/testimonials/adam.jpg'
-import adamAudio from '@assets/testimonials/adam.m4a'
-import scottImg from '@assets/testimonials/scott.jpg'
-import scottAudio from '@assets/testimonials/scott.m4a'
+import annabelImg from '../../assets/testimonials/annabel.jpg'
+import annabelAudio from '../../assets/testimonials/annabel.m4a'
+import adamImg from '../../assets/testimonials/adam.jpg'
+import adamAudio from '../../assets/testimonials/adam.m4a'
+import scottImg from '../../assets/testimonials/scott.jpg'
+import scottAudio from '../../assets/testimonials/scott.m4a'
 
 const Testimonials = () => {
 

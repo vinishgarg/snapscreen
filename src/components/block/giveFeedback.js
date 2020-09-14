@@ -1,7 +1,7 @@
 import React from 'react'
 import { FormattedMessage, injectIntl } from 'gatsby-plugin-intl'
 import { Container, Row, Col } from 'react-bootstrap'
-import HubspotFeedbackForm from '@components/block/hubspotForm'
+import HubspotFeedbackForm from './hubspotForm'
 
 const GiveFeedback = ({ intl }) => {
   return (

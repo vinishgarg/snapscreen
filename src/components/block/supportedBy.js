@@ -2,8 +2,8 @@ import React from 'react'
 import { FormattedMessage, injectIntl } from 'gatsby-plugin-intl'
 import { Container, Row, Col, Image } from 'react-bootstrap'
 
-import TechstarsLogo from '@assets/partners/Techstars_logo.png'
-import AWSLogo from '@assets/partners/AWS_logo.jpg'
+import TechstarsLogo from '../../assets/partners/Techstars_logo.png'
+import AWSLogo from '../../assets/partners/AWS_logo.jpg'
 
 const SupportedBy = () => {
   return (

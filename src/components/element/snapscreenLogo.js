@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link, FormattedMessage, injectIntl } from 'gatsby-plugin-intl'
-import LogoImg from '@assets/snapscreen-logo--text.svg'
+import LogoImg from '../../assets/snapscreen-logo--text.svg'
 
 const SnapscreenLogo = () => {
   return (

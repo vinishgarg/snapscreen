@@ -1,16 +1,16 @@
 import React from 'react'
 import { FormattedMessage, injectIntl, Link } from 'gatsby-plugin-intl'
 import { Container, Row, Col, Jumbotron } from 'react-bootstrap'
-import Layout from '@components/layout'
-import SEO from '@components/helper/seo'
-import VideoStream from '@components/element/videoStream'
-import Blockquote from '@components/element/blockquote'
-import OurBenefits from '@components/block/ourBenefits'
-import OurStars from '@components/block/ourStars'
-import HubspotRequestForm from '@components/block/hubspotForm'
-import SupportedBy from '@components/block/supportedBy'
+import Layout from '../components/layout'
+import SEO from '../components/helper/seo'
+import VideoStream from '../components/element/videoStream'
+import Blockquote from '../components/element/blockquote'
+import OurBenefits from '../components/block/ourBenefits'
+import OurStars from '../components/block/ourStars'
+import HubspotRequestForm from '../components/block/hubspotForm'
+import SupportedBy from '../components/block/supportedBy'
 
-import ogImg from '@assets/image/og_business.jpg'
+import ogImg from '../assets/image/og_business.jpg'
 
 const businessPage = ({ intl }) => {
   return (

@@ -1,9 +1,9 @@
 import React from 'react'
 import { FormattedMessage, injectIntl, Link } from 'gatsby-plugin-intl'
 import { Container, Row, Col, Jumbotron, Image } from 'react-bootstrap'
-import Layout from '@components/layout'
-import SEO from '@components/helper/seo'
-import ErrorImg from '@assets/404.gif'
+import Layout from '../components/layout'
+import SEO from '../components/helper/seo'
+import ErrorImg from '../assets/404.gif'
 
 const ErrorPage = ({ intl }) => {
     return (

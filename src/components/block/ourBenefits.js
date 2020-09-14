@@ -1,7 +1,7 @@
 import React from 'react'
 import { FormattedMessage, injectIntl } from 'gatsby-plugin-intl'
 import { Container, Row, Col } from 'react-bootstrap'
-import Benefit from '@components/element/benefit'
+import Benefit from '../element/benefit'
 
 const OurBenefits = ({ intl }) => {
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import { FormattedMessage } from 'gatsby-plugin-intl'
-import { Modal, Button, ResponsiveEmbed } from "react-bootstrap"
+import { Modal, Button, ResponsiveEmbed } from 'react-bootstrap'
 
 class VideoModal extends React.Component {
 	constructor(props, context) {

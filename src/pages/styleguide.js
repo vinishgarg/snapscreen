@@ -1,8 +1,8 @@
 import React from 'react'
 import { injectIntl } from 'gatsby-plugin-intl'
 import { Container, Row, Col, Jumbotron, Button } from "react-bootstrap"
-import Layout from '@components/layout'
-import SEO from "@components/helper/seo"
+import Layout from '../components/layout'
+import SEO from "../components/helper/seo"
 
 const Styleguide = ({ intl }) => {
   return (

@@ -8,8 +8,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { injectIntl } from 'gatsby-plugin-intl'
-import CustomNavbar from '@components/navbar'
-import Footer from '@components/block/footer'
+import CustomNavbar from './block/navbar'
+import Footer from './block/footer'
 // import SnapButton from '@components/element/snapButton'
 
 import 'modern-normalize/modern-normalize.css'

@@ -2,11 +2,11 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import { FormattedMessage, injectIntl, Link } from 'gatsby-plugin-intl'
 import { Container, Row, Col, Jumbotron } from "react-bootstrap"
-import Layout from '@components/layout'
-import SEO from "@components/helper/seo"
-import HubspotRequestForm from '@components/block/hubspotForm'
+import Layout from '../components/layout'
+import SEO from "../components/helper/seo"
+import HubspotRequestForm from '../components/block/hubspotForm'
 
-import ogImg from '@assets/image/og_home.jpg'
+import ogImg from '../assets/image/og_home.jpg'
 
 function Privacy({ intl, data }) {
   const { markdownRemark } = data // data.markdownRemark holds your post data

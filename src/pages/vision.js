@@ -1,14 +1,14 @@
 import React from 'react'
 import { FormattedMessage, injectIntl, Link } from 'gatsby-plugin-intl'
 import { Container, Row, Col, Jumbotron } from 'react-bootstrap'
-import Layout from '@components/layout'
-import SEO from '@components/helper/seo'
-import VideoStream from '@components/element/videoStream'
-import Blockquote from '@components/element/blockquote'
-import Team from '@components/block/team'
-import SupportedBy from '@components/block/supportedBy'
+import Layout from '../components/layout'
+import SEO from '../components/helper/seo'
+import VideoStream from '../components/element/videoStream'
+import Blockquote from '../components/element/blockquote'
+import Team from '../components/block/team'
+import SupportedBy from '../components/block/supportedBy'
 
-import ogImg from '@assets/image/og_vision.jpg'
+import ogImg from '../assets/image/og_vision.jpg'
 
 const visionPage = ({ intl }) => {
   return (

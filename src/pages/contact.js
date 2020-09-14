@@ -1,12 +1,12 @@
 import React from 'react'
 import { FormattedMessage, injectIntl } from 'gatsby-plugin-intl'
 import { Container, Row, Col, Jumbotron, Image } from "react-bootstrap"
-import Layout from '@components/layout'
-import SEO from "@components/helper/seo"
-import PopoverPerson from '@components/element/popoverPerson'
-import HubspotMeeting from '@components/block/hubspotMeeting'
+import Layout from '../components/layout'
+import SEO from "../components/helper/seo"
+import PopoverPerson from '../components/element/popoverPerson'
+import HubspotMeeting from '../components/block/hubspotMeeting'
 
-import ogImg from '@assets/image/og_contact.jpg'
+import ogImg from '../assets/image/og_contact.jpg'
 
 const Contact = ({ intl }) => {
   return (

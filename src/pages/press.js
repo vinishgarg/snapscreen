@@ -2,12 +2,12 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import { FormattedMessage, injectIntl } from 'gatsby-plugin-intl'
 import { Container, Row, Col, Jumbotron } from 'react-bootstrap'
-import Layout from '@components/layout'
-import SEO from '@components/helper/seo'
-import PostLink from "@components/element/postLink"
-import HubSpot from '@components/block/hubspotForm'
+import Layout from '../components/layout'
+import SEO from '../components/helper/seo'
+import PostLink from "../components/element/postLink"
+import HubSpot from '../components/block/hubspotForm'
 
-import ogImg from '@assets/image/og_home.jpg'
+import ogImg from '../assets/image/og_home.jpg'
 
 const Press = ({
   intl,

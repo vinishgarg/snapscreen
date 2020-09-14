@@ -1,11 +1,11 @@
 import React from 'react'
 import { FormattedMessage, injectIntl } from 'gatsby-plugin-intl'
 import { Container, Row, Col } from 'react-bootstrap'
-import Innovation from '@components/element/innovation'
+import Innovation from '../element/innovation'
 
-import watchTVImg from '@assets/image/watching-tv.jpg'
-import snapTVImg from '@assets/image/snap-with-mobile-phone.jpg'
-import checkSocialsImg from '@assets/image/checking-social-media.jpg'
+import watchTVImg from '../../assets/image/watching-tv.jpg'
+import snapTVImg from '../../assets/image/snap-with-mobile-phone.jpg'
+import checkSocialsImg from '../../assets/image/checking-social-media.jpg'
 
 
 const OurInnovation = ({ intl }) => {

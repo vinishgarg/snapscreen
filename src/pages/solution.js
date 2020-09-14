@@ -1,14 +1,14 @@
 import React from 'react'
 import { FormattedMessage, injectIntl, Link } from 'gatsby-plugin-intl'
 import { Container, Row, Col, Jumbotron } from 'react-bootstrap'
-import Layout from '@components/layout'
-import SEO from '@components/helper/seo'
-import GiveFeedback from '@components/block/giveFeedback'
-import UserJourney from '@components/block/userJourney'
-import SupportedBy from '@components/block/supportedBy'
-import Testimonials from '@components/block/testimonials'
+import Layout from '../components/layout'
+import SEO from '../components/helper/seo'
+import GiveFeedback from '../components/block/giveFeedback'
+import UserJourney from '../components/block/userJourney'
+import SupportedBy from '../components/block/supportedBy'
+import Testimonials from '../components/block/testimonials'
 
-import ogImg from '@assets/image/og_solution.jpg'
+import ogImg from '../assets/image/og_solution.jpg'
 
 const solutionPage = ({ intl }) => {
   return (
