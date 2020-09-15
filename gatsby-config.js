@@ -96,12 +96,6 @@ module.exports = {
           },
         ],
       },
-    },
-    {
-      resolve: `gatsby-plugin-offline`, // needs to be after manifest!
-      options: {
-        precachePages: [`/vision`, `/solution`, `/business`, `/contact`, `/try`, `/privacy`, `/terms`],
-      },
     }
   ],
 }

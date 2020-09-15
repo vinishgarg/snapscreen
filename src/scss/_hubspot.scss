@@ -23,3 +23,26 @@ div#hs-eu-cookie-confirmation div#hs-eu-cookie-confirmation-inner p {
 div#hs-eu-cookie-confirmation div#hs-eu-cookie-confirmation-inner a#hs-eu-confirmation-button {
   font-weight: 600 !important;
 }
+
+.ch2 {
+  position: sticky;
+  bottom: 0;
+  z-index: 800;
+}
+.ch2-theme-bar .ch2-dialog {
+  position: static;
+}
+.ch2-dialog-actions button {
+  border-radius: 0.3rem;
+  &:hover {
+    box-shadow: none !important;
+  }
+}
+.ch2-style-light .ch2-btn-primary:hover, .ch2-style-dark .ch2-btn-primary:hover {
+  background: #1484ed !important;
+  border-color: #117ee4;
+}
+
+.ch2-style-light .ch2-switch input:disabled + label {
+  background: #000 !important;
+}
