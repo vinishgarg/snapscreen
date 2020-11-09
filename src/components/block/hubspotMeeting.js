@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { Modal, Button } from 'react-bootstrap'
 import { FormattedMessage, useIntl } from 'gatsby-plugin-intl'
 import { Offline, Online } from 'react-detect-offline'
+import CloseImg from '../../assets/close-circle.svg'
 
 const HubspotMeeting = ({ actionText, person, hubspotUser }) => {
 
@@ -30,6 +31,7 @@ const HubspotMeeting = ({ actionText, person, hubspotUser }) => {
             <Online><FormattedMessage id={"action.bookMeeting"} /></Online>
           </Modal.Title>
           <button className="btn btn--close" onClick={handleClose}>
+            <CloseImg />
             <span className="sr-only"><FormattedMessage id="action.close" /></span>
           </button>
         </Modal.Header>

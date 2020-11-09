@@ -1,7 +1,7 @@
 ---
 document: "press"
 url: "https://www.techstars.com/newsroom/the-techstars-sportstech-melbourne-accelerator-inaugural-class"
-teaser: "https://www.nd-instituut.nl/storage/2020/03/Techstars_Blinking.png"
+teaser: "https://assets.brandfolder.com/q6kn4m-tw6a8-fyp7a8/v/11393250/element.png?v=1592415476"
 reference: "techstars.com"
 date: "2020-02-04"
 title: "The Techstars SportsTech Melbourne Accelerator Inaugural Class."

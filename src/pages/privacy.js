@@ -48,7 +48,7 @@ function Privacy({ intl, data }) {
           </Row>
         </Container>
       </Jumbotron>
-      <section className="bg-light">
+      <section className="">
         <Container>
           <Row>
             <Col xs="12" md="10" lg="9" className="ml-auto mr-auto" as="article">

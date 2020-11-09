@@ -55,7 +55,7 @@ const Testimonials = () => {
                         style={{width: 100, height: 100}}
                       />
                       <div className="media-body">
-                        <div className="h5 mt-2 mb-0 text-dark">
+                        <div className="h5 mt-2 mb-0">
                           {item.name}
                         </div>
                         <div>{item.role}</div>

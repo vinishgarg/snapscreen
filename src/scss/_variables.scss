@@ -41,8 +41,9 @@ $font-family-serif: Palatino, Times, Times New Roman, serif !default;
 
 // Restated Bootstrap Variables
 
+/* COLORS */
 $white: #fff !default;
-$gray-100: #EFEFEF !default;
+$gray-100: #efeff3 !default;
 $gray-200: #e9ecef !default;
 $gray-300: #dee2e6 !default;
 $gray-400: #ced4da !default;
@@ -51,9 +52,9 @@ $gray-600: #868e96 !default;
 $gray-700: #707070 !default;
 $gray-800: #343a40 !default;
 $gray-900: #212529 !default;
-$black: #000 !default;
+$black: #0c1015 !default;
 
-$brand: #3897F0 !default;
+$brand: #0480ec !default;
 $brand-dark: #06233D !default;
 $blue: #0070c9 !default;
 $indigo: #6610f2 !default;
@@ -75,10 +76,61 @@ $danger: $red !default;
 $light: $gray-100 !default;
 $dark: $gray-800 !default;
 
-$link-color: $brand;
-$border-color: $light !default;
 
-$body-bg: $white !default;
+:root {
+  color-scheme: dark light;
+  /* take from PWA */
+  --color-black:              #0c1015;
+  --color-black-rgb:          0,0,0;
+  --color-dark:               #16202c;
+  --color-mid:                #202b38;
+  --color-light:              #efeff3;
+  --color-white:              #ffffff;
+  --color-white-rgb:          255,255,255;
+  --color-red:                #ff2b6c;
+  --color-red-light:          #fee9f0;
+  --color-brand-primary:      #0480ec;
+  --color-brand-primary-dark: #0066c0;
+  --color-brand-secondary:    #06233D;
+  --color-action:             #0480ec;
+  --color-action-hover:       #0066c0;
+  --color-action-hover-bg:    #e1f1ff;
+  --color-rgb-glow:           56,151,240;
+  --color-facebook:           #3b5999;
+  --color-twitter:            #55acee;
+  --color-google:             #dd4b39;
+
+  --body-bg-color: var(--color-white);
+  --base-text-color: var(--contrast-text-color);
+  --contrast-text-color: var(--color-dark);
+  --contrast-bg-color: var(--color-white);
+  --canvas-bg-color: var(--color-light);
+  --card-bg-color: var(--color-white);
+  --header-bg-color: var(--contrast-bg-color);
+  --dialog-bg-color: var(--card-bg-color);
+  --button-bg-hover-color: var(--color-action-hover-bg);
+
+  /* Dark theme variables */
+  @media (prefers-color-scheme: dark) {
+    --body-bg-color: var(--color-black);
+    --color-action-hover: var(--color-white);
+    --color-action-hover-bg: var(--color-black);
+    --contrast-text-color: var(--color-white);
+    --contrast-bg-color: var(--color-dark);
+    --canvas-bg-color: var(--color-dark);
+    --card-bg-color: var(--color-mid);
+    --color-action-hover-bg: var(--color-black);
+    --header-border-color: var(--color-mid);
+    --dialog-bg-color: var(--color-mid);
+    --button-bg-hover-color: var(--color-black);
+  }
+}
+
+$link-color: $brand;
+$border-color: var(--header-border-color) !default;
+
+$body-bg: var(--body-bg-color) !default;
+$body-color: var(--base-text-color) !default;
 
 $display1-size: 4.5em !default;
 $display2-size: 3.5em !default;
@@ -90,17 +142,20 @@ $display2-weight: 600;
 $display3-weight: 600;
 $display4-weight: 600;
 
-$headings-color: $gray-700 !default;
+$headings-color: var(--base-text-color) !default;
 $headings-font-weight: 600 !default;
 
 $box-shadow-lg: 0 1rem 3rem rgba($black, .175) !default;
 
 // Navbar
-$navbar-dark-color:                 rgba($white, .75) !default;
-$navbar-dark-hover-color:           rgba($white, .85) !default;
+$navbar-dark-color:                 var(--color-action) !default;
+$navbar-dark-hover-color:           var(--color-action) !default;
+$navbar-dark-active-color:          var(--base-text-color) !default;
 
 // Buttons
 $btn-font-weight:                   600 !default;
+$btn-link-color:                    $link-color;
+$btn-link-hover-color:              $link-color;
 $input-btn-padding-x:               1rem !default;
 $input-btn-padding-x-sm:            .85rem !default;
 $input-btn-padding-x-lg:            1.5rem !default;
@@ -108,9 +163,10 @@ $input-btn-padding-x-lg:            1.5rem !default;
 // Cards
 $card-border-radius:                0.5rem !default;
 $card-border-color:                 transparent !default;
-$card-bg:                           transparent !default;
+$card-bg:                           var(--card-bg-color) !default;
 
 // Popovers
+$modal-content-bg:                  var(--contrast-bg-color) !default;
 $popover-bg:                        $white !default;
 $popover-max-width:                 96% !default;
 $popover-border-width:              0 !default;

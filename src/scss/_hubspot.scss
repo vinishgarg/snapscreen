@@ -46,3 +46,7 @@ div#hs-eu-cookie-confirmation div#hs-eu-cookie-confirmation-inner a#hs-eu-confir
 .ch2-style-light .ch2-switch input:disabled + label {
   background: #000 !important;
 }
+
+.modal-body {
+  background-color: $white;
+}

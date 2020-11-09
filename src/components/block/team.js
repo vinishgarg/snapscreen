@@ -32,11 +32,11 @@ const Team = ({ intl }) => {
                   roundedCircle
                   src={"https://cdn2.hubspot.net/hubfs/7433878/team/" + person + ".png"}
                   alt={intl.formatMessage({ id: "team." + person + ".nick" })}
-                  className="mr-4 bg-light"
+                  className="mr-4"
                   style={{width: 100, height: 100}}
                 />
                 <div className="media-body">
-                  <div className="h5 mt-2 mb-0 text-dark">
+                  <div className="h5 mt-2 mb-0">
                     <FormattedMessage id={"team." + person + ".name"} />
                   </div>
                   <div><FormattedMessage id={"team." + person + ".role"} /></div>

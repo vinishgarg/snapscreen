@@ -1,7 +1,9 @@
 .btn-link {
   font-weight: 600;
   &:hover {
+    color: var(--color-action);
     text-decoration: none;
+    background-color: var(--button-bg-hover-color);
   }
 }
 
@@ -12,10 +14,21 @@
   position: absolute;
   right: 0.85rem;
   top: 0.85rem;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' style='width:24px;height:24px' viewBox='0 0 24 24'%3E%3Cpath fill='%23000000' d='M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z' /%3E%3C/svg%3E");
+  opacity: .4;
+  transition: opacity .2s ease-in-out;
+
+  svg {
+    width: 24px;
+    height: 24px;
+    path {
+      fill: var(--base-text-color);
+      stroke: var(--base-text-color);
+    }
+  }
+
+  &:hover,
   &:focus {
+    opacity: 1;
     outline: -webkit-focus-ring-color auto 5px;
   }
 }

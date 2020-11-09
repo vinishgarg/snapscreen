@@ -55,17 +55,17 @@ const Footer = ({ intl }) => {
           <Col xs="12" md="6" lg="6" className="ml-auto my-2">
             <ul className="list-inline text-md-right text-center ml-auto">
               <li className="list-inline-item mr-3">
-                <a href="https://github.com/snpscrn" target="_blank" rel="noopener noreferrer" className="text-dark">
+                <a href="https://github.com/snpscrn" target="_blank" rel="noopener noreferrer">
                   <ion-icon name="logo-github" size="large" />
                 </a>
               </li>
               <li className="list-inline-item mr-3">
-                <a href="https://twitter.com/snapscreen_com" target="_blank" rel="noopener noreferrer" className="text-dark">
+                <a href="https://twitter.com/snapscreen_com" target="_blank" rel="noopener noreferrer">
                   <ion-icon name="logo-twitter" size="large" />
                 </a>
               </li>
               <li className="list-inline-item">
-                <a href="https://www.linkedin.com/company/snapscreen/" target="_blank" rel="noopener noreferrer" className="text-dark">
+                <a href="https://www.linkedin.com/company/snapscreen/" target="_blank" rel="noopener noreferrer">
                   <ion-icon name="logo-linkedin" size="large" />
                 </a>
               </li>

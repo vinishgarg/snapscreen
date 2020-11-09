@@ -26,7 +26,7 @@ const CustomNavbar = ({ intl }) => {
 
   return (
     <header className="navbar__wrapper">
-      <Navbar collapseOnSelect expand="sm" id="site-navbar" variant="dark">
+      <Navbar collapseOnSelect expand="sm" id="site-navbar">
         <Container>
           <SnapscreenLogo />
           <a className="sr-only sr-only-focusable nav-link" href="#main">

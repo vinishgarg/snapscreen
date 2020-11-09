@@ -3,6 +3,7 @@ import ResizeObserver from 'resize-observer-polyfill'
 import { ToggleLayer, Transition, Arrow, useBreakpoint } from 'react-laag'
 import { Container, Row, Col, Image } from "react-bootstrap"
 import { FormattedMessage, useIntl } from 'gatsby-plugin-intl'
+import CloseImg from '../../assets/close-circle.svg'
 
 const PopoverPerson = ({ name, trigger }) => {
 
@@ -35,6 +36,7 @@ const PopoverPerson = ({ name, trigger }) => {
                 }
               >
                 <button className="btn btn--close" onClick={close}>
+                  <CloseImg />
                   <span className="sr-only">Close</span>
                 </button>
                 <Row>

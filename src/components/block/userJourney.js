@@ -22,7 +22,7 @@ const UserJourney = () => {
         </Row>
         <Row>
           <Col xs="6" md="4" lg="4" className="m-auto mb-4 p-4">
-            <Image fluid src={UserJourneyImg01} alt="User Journey" />
+            <UserJourneyImg01 />
           </Col>
           <Col xs="12" md="6" lg="5" className="m-auto mb-4">
             <p className="lead">
@@ -32,7 +32,7 @@ const UserJourney = () => {
         </Row>
         <Row>
           <Col xs="6" md="4" lg="4" className="m-auto mb-4 p-4 order-md-2">
-            <Image fluid src={UserJourneyImg02} alt="User Journey" />
+            <UserJourneyImg02 />
           </Col>
           <Col xs="12" md="6" lg="5" className="m-auto mb-4 order-md-1">
             <p className="lead">
@@ -42,7 +42,7 @@ const UserJourney = () => {
         </Row>
         <Row>
           <Col xs="6" md="4" lg="4" className="m-auto mb-4 p-4">
-            <Image fluid src={UserJourneyImg03} alt="User Journey" />
+            <UserJourneyImg03 />
           </Col>
           <Col xs="12" md="6" lg="5" className="m-auto mb-4">
             <p className="lead">
@@ -52,7 +52,7 @@ const UserJourney = () => {
         </Row>
         <Row>
           <Col xs="6" md="4" lg="4" className="m-auto mb-4 p-4 order-md-2">
-            <Image fluid src={UserJourneyImg04} alt="User Journey" />
+            <UserJourneyImg04 />
           </Col>
           <Col xs="12" md="6" lg="5" className="m-auto mb-4 order-md-1">
             <p className="lead">

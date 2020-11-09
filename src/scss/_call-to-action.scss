@@ -2,7 +2,7 @@
   position: relative;
   padding-top: 4rem;
   padding-bottom: 4rem;
-  background-color: lighten($brand, 36%);
+  background-color: var(--contrast-bg-color);
 
   .card-body {
     padding: 3rem;

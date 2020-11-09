@@ -2,7 +2,7 @@
   border-radius: 0;
   padding-left: 0;
   padding-right: 0;
-  background: $brand-dark;
+  background: transparent;
   margin-bottom: 0;
 
   h1 {
@@ -16,9 +16,9 @@
   }
 
   strong, b {
-    color: $white;
+    color: var(--base-text-color);
   }
   p, div {
-    color: $gray-500;
+    color: var(--base-text-color);
   }
 }

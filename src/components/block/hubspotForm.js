@@ -3,6 +3,7 @@ import { Modal, Button } from 'react-bootstrap'
 import HubspotForm from 'react-hubspot-form'
 import { FormattedMessage, useIntl } from 'gatsby-plugin-intl'
 import { Offline, Online } from 'react-detect-offline'
+import CloseImg from '../../assets/close-circle.svg'
 
 const HubspotRequestForm = ({ title, actionText, formId, person }) => {
 
@@ -24,6 +25,7 @@ const HubspotRequestForm = ({ title, actionText, formId, person }) => {
             <Online>{title}</Online>
           </Modal.Title>
           <button className="btn btn--close" onClick={handleClose}>
+            <CloseImg />
             <span className="sr-only"><FormattedMessage id="action.close" /></span>
           </button>
         </Modal.Header>
