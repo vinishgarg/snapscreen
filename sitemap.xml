@@ -17,6 +17,9 @@
 <url> <loc>https://www.snapscreen.com/press/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.snapscreen.com/en/press/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.snapscreen.com/de/press/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://www.snapscreen.com/privacy-embed/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://www.snapscreen.com/en/privacy-embed/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://www.snapscreen.com/de/privacy-embed/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.snapscreen.com/privacy/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.snapscreen.com/en/privacy/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.snapscreen.com/de/privacy/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
