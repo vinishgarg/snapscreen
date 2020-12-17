@@ -7,17 +7,37 @@ div#hs-eu-cookie-confirmation {
   font-family: $font-family-sans-serif !important;
   border-top: 0 !important;
   box-shadow: none !important;
+  border-bottom: 1px solid var(--header-border-color) !important;
+  background: var(--body-bg-color) !important;
 }
 
 div#hs-eu-cookie-confirmation div#hs-eu-cookie-confirmation-inner {
   max-width: 1200px !important;
   padding: 20px 15px !important;
+  background: var(--body-bg-color) !important;
+
+  > * {
+    @include media-breakpoint-up(md) {
+      max-width: 83.33333% !important;
+      margin-left: auto !important;
+      margin-right: auto !important;
+    }
+    @include media-breakpoint-up(lg) {
+      max-width: 75% !important;
+    }
+  }
 }
 
 div#hs-eu-cookie-confirmation div#hs-eu-cookie-confirmation-inner p {
+  color: var(--base-text-color) !important;
   a, a:hover {
     color: $link-color !important;
   }
+}
+
+div#hs-eu-cookie-confirmation div#hs-eu-cookie-confirmation-inner div#hs-en-cookie-confirmation-buttons-area {
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 
 div#hs-eu-cookie-confirmation div#hs-eu-cookie-confirmation-inner a#hs-eu-confirmation-button {
@@ -48,5 +68,5 @@ div#hs-eu-cookie-confirmation div#hs-eu-cookie-confirmation-inner a#hs-eu-confir
 }
 
 .modal-body {
-  background-color: $white;
+  background-color: var(--contrast-bg-color);
 }

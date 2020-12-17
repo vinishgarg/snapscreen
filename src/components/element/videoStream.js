@@ -4,7 +4,7 @@ import { Offline, Online } from 'react-detect-offline'
 
 import TelevisionImg from '../../assets/television.png'
 
-const VideoStream = ({ id, autoplay, mute }) => {
+const VideoStream = ({ id, autoplay, start, mute }) => {
 
   return (
     <>
@@ -12,7 +12,7 @@ const VideoStream = ({ id, autoplay, mute }) => {
         <div style={{position: 'relative'}} className="mb-5">
           <ResponsiveEmbed style={{position: 'relative', zIndex: 1, border: '8px solid #000000', background: '#000000'}} aspectRatio="16by9">
             <iframe title="intro video" className="embed-responsive-item" width="600" height="338"
-              src={"https://www.youtube.com/embed/" + id + "?autoplay=" + autoplay + "&mute=" + mute} frameBorder="0" allowFullScreen
+              src={"https://www.youtube.com/embed/" + id + "?autoplay=" + autoplay + "&start=" + start + "&mute=" + mute} frameBorder="0" allowFullScreen
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" autoPlay />
           </ResponsiveEmbed>
           <Image style={{position: 'absolute', top: 0, left: 0, zIndex: 0}} fluid className="bg-black" src={TelevisionImg} alt="TV set" />

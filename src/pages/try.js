@@ -95,7 +95,7 @@ const Try = ({ intl }) => {
             </Row>
             <Row className="">
               <Col md="10" lg="8" className="mx-auto my-4 py-4">
-                <VideoStream id="Aw3xFO1wdJ4" autoplay="1" mute="1" />
+                <VideoStream id="Aw3xFO1wdJ4" autoplay="1" start="320" mute="1" />
               </Col>
             </Row>
             <Row>

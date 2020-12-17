@@ -3,7 +3,7 @@ module.exports = {
   siteMetadata: {
     siteUrl: `https://about.snapscreen.com/`,
     title: `Snapscreen`,
-    description: `We make TV and streaming discoverable and shareable.`,
+    description: `Snap your TV with your phone and share TV moments with your friends and followers.`,
     author: `@snapscreen`,
     twitter: `Snapscreen_com`,
     ogImage: `${__dirname}/static/og_default.jpg`,
