@@ -1,6 +1,6 @@
 import React from 'react'
 import { FormattedMessage, injectIntl } from 'gatsby-plugin-intl'
-import { Container, Row, Col, Image } from 'react-bootstrap'
+import { Container, Row, Col } from 'react-bootstrap'
 
 import TechstarsLogo from '../../assets/partners/techstars_logo.svg'
 import AWSLogo from '../../assets/partners/aws_logo.svg'

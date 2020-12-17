@@ -1,6 +1,6 @@
 import React from 'react'
 import { FormattedMessage, injectIntl } from 'gatsby-plugin-intl'
-import { Container, Row, Col, Image } from 'react-bootstrap'
+import { Container, Row, Col } from 'react-bootstrap'
 
 import UserJourneyImg01 from '../../assets/sketch/support-notes-colour.svg'
 import UserJourneyImg02 from '../../assets/sketch/holding-phone-colour.svg'

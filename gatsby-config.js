@@ -1,7 +1,7 @@
 module.exports = {
   pathPrefix: `/snapscreen`,
   siteMetadata: {
-    siteUrl: `https://www.snapscreen.com/`,
+    siteUrl: `https://about.snapscreen.com/`,
     title: `Snapscreen`,
     description: `We make TV and streaming discoverable and shareable.`,
     author: `@snapscreen`,

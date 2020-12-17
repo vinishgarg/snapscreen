@@ -37,6 +37,11 @@
     color: var(--base-text-color) !important;
   }
 
+  svg {
+    max-height: 2rem;
+    width: auto;
+  }
+
   .nav-link {
     color: var(--color-action);
     &:hover,
