@@ -2,7 +2,7 @@
 
 This is a website for Snapscreen Inc.
 You are in the development branch. Master is used for GitHub Pages.
-Here you find the deployed version: https://www.snapscreen.com
+Here you find the deployed version: https://about.snapscreen.com
 
 ## Develop
 
