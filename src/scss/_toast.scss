@@ -1,0 +1,42 @@
+.toasts {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 10;
+  @include media-breakpoint-down(sm) {
+    width: 100%;
+  }
+}
+
+.toast {
+  margin: .85rem;
+  margin-left: auto;
+  background-color: var(--body-bg-color);
+  color: var(--base-text-color);
+  @include media-breakpoint-down(sm) {
+    max-width: 100%;
+    margin-left: .85rem;
+  }
+
+  &.fade:not(.show) {
+    > * {
+      pointer-events: none;
+    }
+  }
+}
+
+.toast-body,
+.toast-header {
+  backdrop-filter: saturate(180%) blur(20px);
+  padding: .5rem 1rem 1rem;
+}
+
+.toast-header {
+  color: var(--base-text-color);
+  background-color: var(--body-bg-color);
+  padding: .5rem 1rem;
+
+  .close {
+    color: var(--base-text-color);
+  }
+}

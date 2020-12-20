@@ -1,17 +1,17 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { FormattedMessage, injectIntl, Link } from 'gatsby-plugin-intl'
-import { Container, Row, Col, Jumbotron, Alert } from 'react-bootstrap'
+import { Container, Row, Col, Jumbotron } from 'react-bootstrap'
 import ReactTypingEffect from '../components/vendor/react-typing-effect/src/lib/'
 import Layout from '../components/layout'
 import SEO from '../components/helper/seo'
-import OurInnovation from '../components/block/ourInnovation'
 import Blockquote from '../components/element/blockquote'
+import OurInnovation from '../components/block/ourInnovation'
 import SupportedBy from '../components/block/supportedBy'
+import Notification from '../components/element/notification'
 
 import ogImg from '../assets/image/og_home.jpg'
 
 const IndexPage = ({ intl }) => {
-  const [show, setShow] = useState(true);
   return (
     <Layout>
       <SEO
@@ -20,6 +20,7 @@ const IndexPage = ({ intl }) => {
         keywords={[`innovation`, `television`, `streaming`, `marketing`]}
         ogImage={ogImg}
       />
+      <Notification />
       <Jumbotron>
         <Container>
           <Row>
