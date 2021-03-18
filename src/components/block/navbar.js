@@ -2,7 +2,6 @@ import React from 'react'
 import { Link, FormattedMessage, injectIntl } from 'gatsby-plugin-intl'
 import { Container, Navbar, Nav } from 'react-bootstrap'
 import SnapscreenLogo from '../element/snapscreenLogo'
-import AppStoreBadge from '../../assets/Download_on_the_App_Store_Badge.svg'
 
 const CustomNavbar = ({ intl }) => {
 
@@ -33,12 +32,6 @@ const CustomNavbar = ({ intl }) => {
           <a className="sr-only sr-only-focusable nav-link" href="#main">
             <FormattedMessage id="action.skipNavigation" />
           </a>
-          <div>
-            <a href="https://apps.apple.com/us/app/snapscreen/id1529063457" className="mt-2 mt-sm-0 ml-md-2">
-              <AppStoreBadge />
-            </a>
-            <Navbar.Toggle aria-controls="top-navbar-nav" />
-          </div>
           <Navbar.Collapse id="top-navbar-nav">
             <Nav as="ul" className="ml-md-auto">
               {menu.map(function(item, i) {
