@@ -7,7 +7,6 @@ import SEO from '../components/helper/seo'
 import Blockquote from '../components/element/blockquote'
 import OurInnovation from '../components/block/ourInnovation'
 import SupportedBy from '../components/block/supportedBy'
-import Notification from '../components/element/notification'
 
 import ogImg from '../assets/image/og_home.jpg'
 
@@ -20,7 +19,6 @@ const IndexPage = ({ intl }) => {
         keywords={[`innovation`, `television`, `streaming`, `marketing`]}
         ogImage={ogImg}
       />
-      <Notification />
       <Jumbotron>
         <Container>
           <Row>
