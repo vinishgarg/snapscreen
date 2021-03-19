@@ -83,6 +83,7 @@ $dark: $gray-800 !default;
   --color-black:              #0c1015;
   --color-black-rgb:          0,0,0;
   --color-dark:               #16202c;
+  --color-dark-rgb:           12,16,20;
   --color-mid:                #202b38;
   --color-light:              #f3f4f6;
   --color-white:              #ffffff;
@@ -107,6 +108,7 @@ $dark: $gray-800 !default;
   --canvas-bg-color: var(--color-light);
   --card-bg-color: var(--color-white);
   --header-bg-color: var(--contrast-bg-color);
+  --navbar-bg-color: var(--color-white-rgb);
   --dialog-bg-color: var(--card-bg-color);
   --button-bg-hover-color: var(--color-action-hover-bg);
 
@@ -121,6 +123,7 @@ $dark: $gray-800 !default;
     --card-bg-color: var(--color-mid);
     --color-action-hover-bg: var(--color-black);
     --header-border-color: var(--color-mid);
+    --navbar-bg-color: var(--color-dark-rgb);
     --dialog-bg-color: var(--color-mid);
     --button-bg-hover-color: var(--color-black);
   }
