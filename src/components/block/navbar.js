@@ -32,6 +32,7 @@ const CustomNavbar = ({ intl }) => {
           <a className="sr-only sr-only-focusable nav-link" href="#main">
             <FormattedMessage id="action.skipNavigation" />
           </a>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="top-navbar-nav">
             <Nav as="ul" className="ml-md-auto">
               {menu.map(function(item, i) {
