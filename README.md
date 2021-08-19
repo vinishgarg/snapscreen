@@ -1,7 +1,7 @@
 # Snapscreen website
 
 This is a website for Snapscreen Inc.
-You are in the development branch. Master is used for GitHub Pages.
+You are in the development branch. Master branch is used for GitHub Pages in production mode.
 Here you find the deployed version: https://about.snapscreen.com
 
 ## Develop
@@ -13,7 +13,3 @@ Here you find the deployed version: https://about.snapscreen.com
 ## GIT
 
 **Master branch is used as github pages**
-
-Terminal commands:
-- git commit -a -m "commit message"
-- git push origin develop
