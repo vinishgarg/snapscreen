@@ -1,8 +1,8 @@
 ---
 document: "press"
-url: ""
+url: "http://www.miomni.com/press/"
 teaser: "http://www.miomni.com/wp-content/uploads/2017/04/Miomni-Dark.png"
-reference: "miomni.com/press/"
+reference: "miomni.com"
 date: "2021-07-05"
 title: "Snapscreen partnership with Miomni, the leading B2B white label end-to-end solutions provider in the gaming industry."
 ---
