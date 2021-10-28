@@ -30,7 +30,7 @@ const Team = ({ intl }) => {
                 <Image
                   fluid
                   roundedCircle
-                  src={"https://cdn2.hubspot.net/hubfs/7433878/team/" + person + ".png"}
+                  src={"https://f.hubspotusercontent20.net/hubfs/7433878/team/" + person + ".png"}
                   alt={intl.formatMessage({ id: "team." + person + ".nick" })}
                   className="mr-4"
                   style={{width: 100, height: 100}}
