@@ -6,9 +6,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/zeitvertrieb/snapscreen.git"
+    "url": "https://github.com/snapscreen/snapscreen.git"
   },
-  "bugs": "https://github.com/zeitvertrieb/snapscreen/issues",
+  "bugs": "https://github.com/snapscreen/snapscreen/issues",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
